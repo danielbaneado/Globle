@@ -4,11 +4,6 @@ import unicodedata
 from paisesl import paises
 from datetime import datetime
 
-fecha= datetime.now()
-
-if __name__== "__main__":
-    pass
-
 def normalizar(texto):
     return "".join(c for c in unicodedata.normalize("NFD", texto.lower()) if unicodedata.category(c)!= "Mn")
 
