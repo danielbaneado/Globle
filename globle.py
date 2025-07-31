@@ -107,7 +107,7 @@ def modo(modo_escogido):
     modo_escogido.jugar()
 
 if __name__ == "__main__":
-    print("¡Bienvenido a Globle!"
+    print("¡Bienvenido a NewGloble!"
           "\nEste juego pone a prueba tu conocimiento en geografía, debes adivinar el país misterioso con una cantidad limitada de intentos!"
           "\n\nModo diario | Modo práctica")
 
