@@ -108,6 +108,8 @@ class GlobleInfinito(SistemaGloble):
                     continue
 
                 vintentos-= 1
+                print("\nSuposiciones:")
+                self.mostrar_paises_digitados()
 
             print("\n¿Quieres jugar otra vez?")
             if input("s/n: ").strip().lower() != "s":
