@@ -2,7 +2,7 @@ import random
 import sys
 import unicodedata
 from datetime import datetime
-from dict_paises import paises
+from dict_paises import paises, banderas_emojis
 
 def normalizar(texto):
     return "".join(c for c in unicodedata.normalize("NFD", texto.lower()) if unicodedata.category(c)!= "Mn")
@@ -39,6 +39,14 @@ class SistemaGloble:
         self.paises_digitados.append(normal)
         return True
 
+    def mostrar_paises_digitados(self):
+        for normal in self.paises_digitados:
+            for idx, nombre_real in enumerate(paises.keys()):
+                if normal == normalizar(nombre_real):
+                    bandera = banderas_emojis[idx]
+                    print(f"{bandera} {nombre_real}")
+                    break
+
     def ganar(self, intento):
         return normalizar(intento)== normalizar(self.pais_misterioso)
 
@@ -59,7 +67,7 @@ class GlobleDiario(SistemaGloble):
 
         while vintentos > 0:
             print(f"\nIntento {self.intentos - vintentos + 1}/{self.intentos}")
-            intento = input("Tu intento: ").strip()
+            intento = input().strip()
 
             if self.ganar(intento):
                 print(f"\n🎉 ¡Correcto! El país misterioso es: {self.pais_misterioso}")
@@ -72,6 +80,9 @@ class GlobleDiario(SistemaGloble):
             self.mostrar_pista(vpistas)
             vpistas+= 1
             vintentos-= 1
+
+            print("\nSuposiciones:")
+            self.mostrar_paises_digitados()
 
         print(f"\n❌ Te quedaste sin intentos. El país misterioso es: {self.pais_misterioso}")
 
@@ -86,7 +97,7 @@ class GlobleInfinito(SistemaGloble):
 
             while vintentos > 0:
                 print(f"\nIntento {self.intentos - vintentos + 1}/{self.intentos}")
-                intento= input("Tu intento: ").strip()
+                intento= input().strip()
 
                 if self.ganar(intento):
                     print(f"\n🎉 ¡Correcto! El país misterioso era: {self.pais_misterioso}")
@@ -98,7 +109,7 @@ class GlobleInfinito(SistemaGloble):
 
                 vintentos-= 1
 
-            print("\nJugar de nuevo?")
+            print("\n¿Quieres jugar otra vez?")
             if input("s/n: ").strip().lower() != "s":
                 print("\n¡Gracias por jugar!")
                 sys.exit()
