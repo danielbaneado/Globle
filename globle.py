@@ -4,9 +4,6 @@ import unicodedata
 from datetime import datetime
 from dict_paises import paises, banderas_emojis
 
-for nombre, bandera in zip(paises.keys(), banderas_emojis):
-    print(bandera, nombre)
-
 def normalizar(texto):
     return "".join(c for c in unicodedata.normalize("NFD", texto.lower()) if unicodedata.category(c)!= "Mn")
 
