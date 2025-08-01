@@ -1,0 +1,217 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #111;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #222;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+
+header h1 {
+    font-size: 2em;
+    margin: 0;
+}
+
+
+.header-center {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+
+.header-center h1 {
+    border-bottom: 3px solid white;
+    padding-bottom: 10px;
+}
+
+
+nav {
+    position: relative;
+}
+
+.menu-btn {
+    background-color: #444;
+    color: white;
+    padding: 10px 15px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    right: 100;
+    background-color: #333;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3);
+    z-index: 1;
+    border-radius: 5px;
+}
+
+.dropdown-menu a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-menu a:hover {
+    background-color: #444;
+}
+
+nav:hover .dropdown-menu {
+    display: block;
+}
+
+.buttons {
+    display: flex;
+    gap: 60px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 250px;
+}
+
+.button-container button {
+    font-size: 1.5em;
+    padding: 20px 40px;
+    background-color: #555;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-bottom: 10px;
+}
+
+.button-container button:hover {
+    background-color: #777;
+}
+
+.button-container p {
+    font-size: 1em;
+    color: #ccc;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.game-container {
+    width: 100%;
+    max-width: 800px;
+    background-color: #222;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.game-title {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    border-bottom: 2px solid white;
+    padding-bottom: 10px;
+}
+
+.input-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+#country-input {
+    width: 60%;
+    padding: 10px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    border: 1px solid #444;
+    background-color: #333;
+    color: #fff;
+}
+
+.guess-button,
+.skip-button {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.guess-button {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.guess-button:hover {
+    background-color: #45a049;
+}
+
+.skip-button {
+    background-color: #f44336;
+    color: white;
+}
+
+.skip-button:hover {
+    background-color: #da190b;
+}
+
+.hint-area {
+    margin-bottom: 20px;
+}
+
+.hint-title {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.interactive-map {
+    width: 100%;
+    height: 400px;
+    background-color: #333;
+    border: 2px solid #555;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    color: #aaa;
+}
+
+footer {
+    background-color: #222;
+    text-align: center;
+    padding: 15px;
+    font-size: 0.9em;
+}
