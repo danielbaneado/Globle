@@ -2,7 +2,6 @@ import random
 import sys
 import unicodedata
 from datetime import datetime
-from dict_paises import paises
 from dict_paises import paises, banderas_emojis
 
 for nombre, bandera in zip(paises.keys(), banderas_emojis):
