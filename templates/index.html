@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Nombre del Juego</title>
-    <link rel="stylesheet" href="main.css" type="text/css">
+    <link rel="stylesheet" href="{{url_for('static',filename = 'css/styles.css')}}">
 </head>
 
 <body>
@@ -26,12 +26,12 @@
     <main>
         <section class="buttons">
             <div class="button-container">
-                <button type="button">Modo Diario 🌎 </button>
+                <a href="{{url_for('diario')}}"><button type="button">Modo Diario 🌎 </button></a>
                 <p>Intenta adivinar el pais diario con una cantidad limitada de intento! <br> A medida que gastes
                     intentos, se iran revelando pistas que te ayuden a dar con un el pais.</p>
             </div>
             <div class="button-container">
-                <button type="button">Modo Infinito ♾</button>
+                <a href="{{url_for('infinito')}}"><button type="button">Modo Infinito 🌎 </button></a>
                 <p>Igual al modo diario, pero sin el sistema de pistas.</p>
             </div>
         </section>

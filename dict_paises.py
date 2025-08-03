@@ -912,7 +912,7 @@ paises = {
     "Níger": {
         "inicial(es)": "N",
         "bandera": "naranja, blanco, verde",
-        "continente": "África",
+        "continente": "África", 
         "vecinos": ["Argelia", "Libia", "Chad", "Nigeria", "Benín", "Burkina Faso", "Malí"],
         "cualidad": "Gran parte cubierto por el desierto del Sahara."
     },

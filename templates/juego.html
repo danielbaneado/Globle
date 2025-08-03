@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>NewGloble 🌎</title>
-    <link rel="stylesheet" href="main.css" type="text/css">
+    <link rel="stylesheet" href="{{url_for('static',filename = 'css/styles.css')}}">
 </head>
 
 <body>
@@ -27,11 +27,14 @@
         <div class="game-container">
             <h2 class="game-title">Daily guess</h2>
 
-            <div class="input-area">
-                <input type="text" id="country-input" placeholder="Barra para escribir país"
-                    aria-label="Escribe el nombre del país">
-                <button class="guess-button">Botón de adivinar</button>
-                <button class="skip-button">Botón de saltar para mostrar pista</button>
+            <div class="input-area" >
+                <form action="{{url_for('procesar')}}" method="POST">
+                    <input type="text" id="country-input" placeholder="Ingresar país"
+                    aria-label="Escribe el nombre del país" name="pais">
+                <button class="guess-button">Adivinar</button>
+                </form>
+                
+                <button class="skip-button">Saltar</button>
             </div>
 
             <div class="hint-area">
