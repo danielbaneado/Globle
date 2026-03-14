@@ -1,29 +1,49 @@
+import json
 import random
 import sys
 import unicodedata
 from datetime import datetime
-from dict_paises import paises, banderas_emojis
+from pathlib import Path
+
+
+def cargar_datos_paises():
+    base_dir = Path(__file__).resolve().parent
+    data_file = base_dir / "countries.json"
+
+    with data_file.open("r", encoding="utf-8") as f:
+        data = json.load(f)
+
+    return data["countries"], data["flags_emojis"]
+
+
+paises, banderas_emojis = cargar_datos_paises()
 
 def normalizar(texto):
     return "".join(c for c in unicodedata.normalize("NFD", texto.lower()) if unicodedata.category(c)!= "Mn")
 
 class SistemaGloble:
     def __init__(self):
-        self.pistas= ["inicial(es)", "bandera", "continente", "vecinos", "cualidad"]
+        self.pistas= [
+            ("initials", "Inicial(es)"),
+            ("flag colors", "Colores de bandera"),
+            ("continent", "Continente"),
+            ("neighbors", "Vecinos"),
+            ("fact", "Dato curioso")
+        ]
         self.intentos= 6
         self.paises_digitados= []
         self.pais_misterioso= ""
 
     def mostrar_pista(self, pistas_mostradas):
         if 0 < pistas_mostradas <= len(self.pistas):
-            clave= self.pistas[pistas_mostradas - 1]
+            clave, etiqueta = self.pistas[pistas_mostradas - 1]
             valor= paises[self.pais_misterioso][clave]
-            if clave== "vecinos":
+            if clave== "neighbors":
                 print(f"🔍 Pista {pistas_mostradas} - Países vecinos o cercanos:")
                 for v in valor:
                     print("-", v)
             else:
-                print(f"🔍Pista {pistas_mostradas} - {clave.capitalize()} → {valor}")
+                print(f"🔍Pista {pistas_mostradas} - {etiqueta} → {valor}")
 
     def validar_intento(self, intento):
         normal= normalizar(intento)
