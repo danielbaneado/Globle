@@ -1,1582 +1,1581 @@
 {
-    "countries": {
-    "Afghanistan": {
-        "initials": "A",
-        "flag colors": "black, red, green",
-        "continent": "Asia",
-        "neighbors": ["Tajikistan", "Pakistan", "Turkmenistan", "Uzbekistan", "Iran", "China"],
-        "fact": "World's largest producer of opium poppies."
-    },
-    "Albania": {
-        "initials": "A",
-        "flag colors": "red, black",
-        "continent": "Europe",
-        "neighbors": ["Greece", "North Macedonia", "Kosovo", "Montenegro"],
-        "fact": "Only European country with a Muslim majority and no official religion."
-    },
-    "Germany": {
-        "initials": "G",
-        "flag colors": "black, yellow, red",
-        "continent": "Europe",
-        "neighbors": ["Denmark", "Poland", "Czech Republic", "Austria", "Switzerland", "France", "Luxembourg", "Belgium", "Netherlands"],
-        "fact": "Beyond loving beer, they have Europe's largest economy."
-    },
-    "Andorra": {
-        "initials": "A",
-        "flag colors": "blue, red, yellow",
-        "continent": "Europe",
-        "neighbors": ["Spain", "France"],
-        "fact": "One of the world's smallest countries, considered a tax haven."
-    },
-    "Angola": {
-        "initials": "A",
-        "flag colors": "red, black, yellow",
-        "continent": "Africa",
-        "neighbors": ["Namibia", "Zambia", "Democratic Republic of the Congo", "Republic of the Congo"],
-        "fact": "Major oil producer in Africa."
-    },
-    "Antigua and Barbuda": {
-        "initials": "A, B",
-        "flag colors": "red, blue, black, white",
-        "continent": "Americas",
-        "neighbors": ["Saint Kitts and Nevis", "Dominica"],
-        "fact": "Made up of two main Caribbean islands."
-    },
-    "Saudi Arabia": {
-        "initials": "S, A",
-        "flag colors": "green, white",
-        "continent": "Asia",
-        "neighbors": ["Yemen", "Oman", "UAE", "Qatar", "Bahrain", "Kuwait", "Iraq", "Jordan"],
-        "fact": "Home to Islam's holy cities, Mecca and Medina."
-    },
-    "Algeria": {
-        "initials": "A",
-        "flag colors": "green, white, red",
-        "continent": "Africa",
-        "neighbors": ["Morocco", "Tunisia", "Libya", "Niger", "Mali", "Mauritania", "Western Sahara"],
-        "fact": "Largest country in Africa by area."
-    },
-    "Argentina": {
-        "initials": "A",
-        "flag colors": "sky blue, white",
-        "continent": "Americas",
-        "neighbors": ["Chile", "Bolivia", "Paraguay", "Brazil", "Uruguay"],
-        "fact": "Famous for mate and football."
-    },
-    "Armenia": {
-        "initials": "A",
-        "flag colors": "red, blue, orange",
-        "continent": "Asia",
-        "neighbors": ["Turkey", "Georgia", "Iran", "Azerbaijan"],
-        "fact": "First country to adopt Christianity as its official religion."
-    },
-    "Australia": {
-        "initials": "A",
-        "flag colors": "blue, white, red",
-        "continent": "Oceania",
-        "neighbors": ["Papua New Guinea", "Indonesia", "Timor-Leste", "New Zealand"],
-        "fact": "Home to unique species like kangaroos and koalas."
-    },
-    "Austria": {
-        "initials": "A",
-        "flag colors": "red, white",
-        "continent": "Europe",
-        "neighbors": ["Germany", "Czech Republic", "Slovakia", "Hungary", "Slovenia", "Italy", "Switzerland", "Liechtenstein"],
-        "fact": "Famous for its musical heritage and Alpine culture."
-    },
-    "Azerbaijan": {
-        "initials": "A",
-        "flag colors": "blue, red, green",
-        "continent": "Asia",
-        "neighbors": ["Russia", "Georgia", "Armenia", "Iran", "Turkey"],
-        "fact": "Major Caspian Sea oil producer."
-    },
-    "Bahamas": {
-        "initials": "B",
-        "flag colors": "blue, yellow, black",
-        "continent": "Americas",
-        "neighbors": ["Cuba", "United States", "Haiti"],
-        "fact": "Tourist paradise known for its clear beaches."
-    },
-    "Bangladesh": {
-        "initials": "B",
-        "flag colors": "green, red",
-        "continent": "Asia",
-        "neighbors": ["India", "Myanmar"],
-        "fact": "One of the most densely populated countries in the world."
-    },
-    "Barbados": {
-        "initials": "B",
-        "flag colors": "blue, yellow, black",
-        "continent": "Americas",
-        "neighbors": ["Grenada", "Saint Lucia", "Saint Vincent and the Grenadines"],
-        "fact": "One of the only two countries with an artificial border (bridge)."
-    },
-    "Bahrain": {
-        "initials": "B",
-        "flag colors": "red, white",
-        "continent": "Asia",
-        "neighbors": ["Saudi Arabia", "Qatar"],
-        "fact": "One of the only two countries with an artificial border (bridge)."
-    },
-    "Belgium": {
-        "initials": "B",
-        "flag colors": "black, yellow, red",
-        "continent": "Europe",
-        "neighbors": ["France", "Netherlands", "Germany", "Luxembourg"],
-        "fact": "Home of the European Union and famous for chocolate."
-    },
-    "Belize": {
-        "initials": "B",
-        "flag colors": "blue, red",
-        "continent": "Americas",
-        "neighbors": ["Mexico", "Guatemala"],
-        "fact": "Only Central American country with English as an official language."
-    },
-    "Benin": {
-        "initials": "B",
-        "flag colors": "green, yellow, red",
-        "continent": "Africa",
-        "neighbors": ["Togo", "Burkina Faso", "Niger", "Nigeria"],
-        "fact": "Birthplace of traditional voodoo."
-    },
-    "Belarus": {
-        "initials": "B",
-        "flag colors": "red, green, white",
-        "continent": "Europe",
-        "neighbors": ["Russia", "Ukraine", "Poland", "Lithuania", "Latvia"],
-        "fact": "Authoritarian government with Soviet influence."
-    },
-    "Bolivia": {
-        "initials": "B",
-        "flag colors": "red, yellow, green",
-        "continent": "Americas",
-        "neighbors": ["Peru", "Argentina", "Chile", "Brazil", "Paraguay"],
-        "fact": "Landlocked country in South America."
-    },
-    "Bosnia and Herzegovina": {
-        "initials": "B, H",
-        "flag colors": "blue, yellow, white",
-        "continent": "Europe",
-        "neighbors": ["Croatia", "Serbia", "Montenegro"],
-        "fact": "Shaped by the Balkan conflicts of the 1990s."
-    },
-    "Botswana": {
-        "initials": "B",
-        "flag colors": "blue, black, white",
-        "continent": "Africa",
-        "neighbors": ["Namibia", "Zimbabwe", "South Africa", "Zambia"],
-        "fact": "One of Africa's most stable countries."
-    },
-    "Brazil": {
-        "initials": "B",
-        "flag colors": "green, yellow, blue",
-        "continent": "Americas",
-        "neighbors": ["Argentina", "Uruguay", "Paraguay", "Bolivia", "Peru", "Colombia", "Venezuela", "Guyana", "Suriname", "French Guiana"],
-        "fact": "Home to most of the Amazon rainforest."
-    },
-    "Brunei": {
-        "initials": "B",
-        "flag colors": "yellow, white, black, red",
-        "continent": "Asia",
-        "neighbors": ["Malaysia"],
-        "fact": "Oil-rich nation ruled by a sultan."
-    },
-    "Bulgaria": {
-        "initials": "B",
-        "flag colors": "white, green, red",
-        "continent": "Europe",
-        "neighbors": ["Romania", "Serbia", "North Macedonia", "Greece", "Turkey"],
-        "fact": "Known for its Orthodox monasteries and yogurt."
-    },
-    "Burkina Faso": {
-        "initials": "B, F",
-        "flag colors": "red, green, yellow",
-        "continent": "Africa",
-        "neighbors": ["Mali", "Niger", "Benin", "Togo", "Ghana", "Cote d'Ivoire"],
-        "fact": "One of the poorest countries in the world."
-    },
-    "Burundi": {
-        "initials": "B",
-        "flag colors": "red, white, green",
-        "continent": "Africa",
-        "neighbors": ["Rwanda", "Tanzania", "Democratic Republic of the Congo"],
-        "fact": "Landlocked country in the Great Lakes region."
-    },
-    "Bhutan": {
-        "initials": "B",
-        "flag colors": "orange, yellow",
-        "continent": "Asia",
-        "neighbors": ["India", "China"],
-        "fact": "Country with the highest average elevation."
-    },
-    "Cape Verde": {
-        "initials": "C, V",
-        "flag colors": "blue, white, red, yellow",
-        "continent": "Africa",
-        "neighbors": ["Senegal", "Gambia", "Mauritania"],
-        "fact": "Volcanic archipelago in the Atlantic."
-    },
-    "Cambodia": {
-        "initials": "C",
-        "flag colors": "red, blue, white",
-        "continent": "Asia",
-        "neighbors": ["Thailand", "Laos", "Vietnam"],
-        "fact": "Home to Angkor Wat, one of the largest temples in the world."
-    },
-    "Cameroon": {
-        "initials": "C",
-        "flag colors": "green, red, yellow",
-        "continent": "Africa",
-        "neighbors": ["Nigeria", "Chad", "Central African Republic", "Gabon", "Equatorial Guinea", "Republic of the Congo"],
-        "fact": "Known as 'Africa in miniature' for its cultural and geographic diversity."
-    },
-    "Canada": {
-        "initials": "C",
-        "flag colors": "red, white",
-        "continent": "Americas",
-        "neighbors": ["United States"],
-        "fact": "Second largest country in the world."
-    },
-    "Qatar": {
-        "initials": "Q",
-        "flag colors": "maroon, white",
-        "continent": "Asia",
-        "neighbors": ["Saudi Arabia"],
-        "fact": "Hosted the 2022 FIFA World Cup."
-    },
-    "Chad": {
-        "initials": "C",
-        "flag colors": "blue, yellow, red",
-        "continent": "Africa",
-        "neighbors": ["Libya", "Sudan", "Central African Republic", "Cameroon", "Nigeria", "Niger"],
-        "fact": "Landlocked country with a vast Saharan desert presence."
-    },
-    "Chile": {
-        "initials": "C",
-        "flag colors": "red, white, blue",
-        "continent": "Americas",
-        "neighbors": ["Argentina", "Bolivia", "Peru"],
-        "fact": "Most proportionally long country."
-    },
-    "China": {
-        "initials": "C",
-        "flag colors": "red, yellow",
-        "continent": "Asia",
-        "neighbors": ["India", "Pakistan", "Nepal", "Bhutan", "Russia", "Mongolia", "North Korea", "Vietnam", "Laos", "Myanmar", "Afghanistan", "Kazakhstan", "Tajikistan", "Kyrgyzstan"],
-        "fact": "Second strongest global economy."
-    },
-    "Cyprus": {
-        "initials": "C",
-        "flag colors": "white, copper, green",
-        "continent": "Asia",
-        "neighbors": ["Turkey", "Greece", "Syria", "Lebanon", "Israel", "Egypt"],
-        "fact": "Island divided between Greek Cypriots and Turkish Cypriots."
-    },
-    "Vatican City": {
-        "initials": "V, C",
-        "flag colors": "white, yellow",
-        "continent": "Europe",
-        "neighbors": ["Italy"],
-        "fact": "Smallest country in the world and the Holy See."
-    },
-    "Colombia": {
-        "initials": "C",
-        "flag colors": "yellow, blue, red",
-        "continent": "Americas",
-        "neighbors": ["Venezuela", "Brazil", "Peru", "Ecuador", "Panama"],
-        "fact": "Only South American country with coasts on both the Pacific and Atlantic."
-    },
-    "Comoros": {
-        "initials": "C",
-        "flag colors": "green, white, red, yellow, blue",
-        "continent": "Africa",
-        "neighbors": ["Madagascar", "Mozambique", "Tanzania"],
-        "fact": "Volcanic archipelago in the Indian Ocean."
-    },
-    "North Korea": {
-        "initials": "N, K",
-        "flag colors": "red, blue, white",
-        "continent": "Asia",
-        "neighbors": ["China", "South Korea", "Russia"],
-        "fact": "Dictatorial regime and closed society."
-    },
-    "South Korea": {
-        "initials": "S, K",
-        "flag colors": "white, black, red, blue",
-        "continent": "Asia",
-        "neighbors": ["North Korea"],
-        "fact": "Technology powerhouse and birthplace of K-pop."
-    },
-    "Cote d'Ivoire": {
-        "initials": "C, I",
-        "flag colors": "orange, white, green",
-        "continent": "Africa",
-        "neighbors": ["Liberia", "Guinea", "Mali", "Burkina Faso", "Ghana"],
-        "fact": "World's leading exporter of cocoa."
-    },
-    "Costa Rica": {
-        "initials": "C, R",
-        "flag colors": "blue, white, red",
-        "continent": "Americas",
-        "neighbors": ["Nicaragua", "Panama"],
-        "fact": "Abolished its army in 1949 and rich in biodiversity."
-    },
-    "Croatia": {
-        "initials": "C",
-        "flag colors": "red, white, blue",
-        "continent": "Europe",
-        "neighbors": ["Slovenia", "Hungary", "Serbia", "Bosnia and Herzegovina", "Montenegro"],
-        "fact": "Has a spectacular Adriatic coastline."
-    },
-    "Cuba": {
-        "initials": "C",
-        "flag colors": "red, white, blue",
-        "continent": "Americas",
-        "neighbors": ["United States", "Mexico", "Haiti", "Jamaica", "Bahamas"],
-        "fact": "Known for its socialist system and Caribbean music."
-    },
-    "Denmark": {
-        "initials": "D",
-        "flag colors": "red, white",
-        "continent": "Europe",
-        "neighbors": ["Germany"],
-        "fact": "Its continental territory is smaller than its island."
-    },
-    "Dominica": {
-        "initials": "D",
-        "flag colors": "green, yellow, black, white, red",
-        "continent": "Americas",
-        "neighbors": ["Antigua and Barbuda", "Saint Lucia"],
-        "fact": "Not to be confused with the Dominican Republic; it is a volcanic Caribbean island."
-    },
-    "Ecuador": {
-        "initials": "E",
-        "flag colors": "yellow, blue, red",
-        "continent": "Americas",
-        "neighbors": ["Colombia", "Peru"],
-        "fact": "Home to the Galapagos Islands, famous for biodiversity."
-    },
-    "Egypt": {
-        "initials": "E",
-        "flag colors": "red, white, black",
-        "continent": "Africa",
-        "neighbors": ["Libya", "Sudan", "Israel", "Palestine"],
-        "fact": "Home to the pyramids, one of the seven wonders of the ancient world."
-    },
-    "El Salvador": {
-        "initials": "E, S",
-        "flag colors": "blue, white",
-        "continent": "Americas",
-        "neighbors": ["Guatemala", "Honduras"],
-        "fact": "Smallest country in mainland Americas."
-    },
-    "United Arab Emirates": {
-        "initials": "UAE",
-        "flag colors": "red, green, white, black",
-        "continent": "Asia",
-        "neighbors": ["Saudi Arabia", "Oman"],
-        "fact": "Dubai is one of its best-known emirates."
-    },
-    "Eritrea": {
-        "initials": "E",
-        "flag colors": "green, red, blue, yellow",
-        "continent": "Africa",
-        "neighbors": ["Sudan", "Ethiopia", "Djibouti"],
-        "fact": "With a long history of conflict with Ethiopia."
-    },
-    "Slovakia": {
-        "initials": "S",
-        "flag colors": "white, blue, red",
-        "continent": "Europe",
-        "neighbors": ["Czech Republic", "Austria", "Hungary", "Ukraine", "Poland"],
-        "fact": "Split peacefully from Czechoslovakia in 1993."
-    },
-    "Slovenia": {
-        "initials": "S",
-        "flag colors": "white, blue, red",
-        "continent": "Europe",
-        "neighbors": ["Italy", "Austria", "Hungary", "Croatia"],
-        "fact": "Part of former Yugoslavia, now an EU member."
-    },
-    "Spain": {
-        "initials": "S",
-        "flag colors": "red, yellow",
-        "continent": "Europe",
-        "neighbors": ["France", "Andorra", "Portugal", "Morocco"],
-        "fact": "Famous for cultural diversity and imperial history."
-    },
-    "United States": {
-        "initials": "US",
-        "flag colors": "red, white, blue",
-        "continent": "Americas",
-        "neighbors": ["Canada", "Mexico"],
-        "fact": "World's leading economic and military power."
-    },
-    "Estonia": {
-        "initials": "E",
-        "flag colors": "blue, black, white",
-        "continent": "Europe",
-        "neighbors": ["Latvia", "Russia"],
-        "fact": "Highly digitalized country with e-government."
-    },
-    "Eswatini": {
-        "initials": "E",
-        "flag colors": "blue, red, yellow",
-        "continent": "Africa",
-        "neighbors": ["South Africa", "Mozambique"],
-        "fact": "Absolute African monarchy, formerly known as Swaziland."
-    },
-    "Ethiopia": {
-        "initials": "E",
-        "flag colors": "green, yellow, red",
-        "continent": "Africa",
-        "neighbors": ["Eritrea", "Sudan", "South Sudan", "Kenya", "Somalia", "Djibouti"],
-        "fact": "Currently the country where the oldest human remains have been discovered."
-    },
-    "Philippines": {
-        "initials": "P",
-        "flag colors": "blue, red, white, yellow",
-        "continent": "Asia",
-        "neighbors": ["Malaysia", "Vietnam", "Indonesia", "Taiwan"],
-        "fact": "Former Spanish colony and later American."
-    },
-    "Finland": {
-        "initials": "F",
-        "flag colors": "blue, white",
-        "continent": "Europe",
-        "neighbors": ["Sweden", "Norway", "Russia"],
-        "fact": "Renowned for its education system and quality of life."
-    },
-    "Fiji": {
-        "initials": "F",
-        "flag colors": "light blue, white, red",
-        "continent": "Oceania",
-        "neighbors": ["Tonga", "Vanuatu", "Solomon Islands", "Samoa"],
-        "fact": "Made up of over 300 volcanic islands."
-    },
-    "France": {
-        "initials": "F",
-        "flag colors": "blue, white, red",
-        "continent": "Europe",
-        "neighbors": ["Belgium", "Luxembourg", "Germany", "Switzerland", "Italy", "Spain", "Andorra", "Monaco"],
-        "fact": "Most visited country in the world by international tourists."
-    },
-    "Gabon": {
-        "initials": "G",
-        "flag colors": "green, yellow, blue",
-        "continent": "Africa",
-        "neighbors": ["Equatorial Guinea", "Cameroon", "Republic of the Congo"],
-        "fact": "Much of its territory is covered by rainforest."
-    },
-    "Gambia": {
-        "initials": "G",
-        "flag colors": "red, blue, green, white",
-        "continent": "Africa",
-        "neighbors": ["Senegal"],
-        "fact": "Smallest country on mainland Africa."
-    },
-    "Georgia": {
-        "initials": "G",
-        "flag colors": "white, red",
-        "continent": "Asia",
-        "neighbors": ["Russia", "Azerbaijan", "Armenia", "Turkey"],
-        "fact": "Located in the Caucasus, between Europe and Asia."
-    },
-    "Ghana": {
-        "initials": "G",
-        "flag colors": "red, yellow, green, black",
-        "continent": "Africa",
-        "neighbors": ["Cote d'Ivoire", "Burkina Faso", "Togo"],
-        "fact": "First African colony to gain independence in 1957."
-    },
-    "Grenada": {
-        "initials": "G",
-        "flag colors": "red, yellow, green",
-        "continent": "Americas",
-        "neighbors": ["Saint Vincent and the Grenadines", "Trinidad and Tobago", "Venezuela", "Barbados"],
-        "fact": "Caribbean island famous for nutmeg production."
-    },
-    "Greece": {
-        "initials": "G",
-        "flag colors": "blue, white",
-        "continent": "Europe",
-        "neighbors": ["Albania", "North Macedonia", "Bulgaria", "Turkey"],
-        "fact": "Cradle of democracy and Western philosophy."
-    },
-    "Guatemala": {
-        "initials": "G",
-        "flag colors": "blue, white",
-        "continent": "Americas",
-        "neighbors": ["Mexico", "Belize", "Honduras", "El Salvador"],
-        "fact": "Home to major Mayan ruins like Tikal."
-    },
-    "Guinea": {
-        "initials": "G",
-        "flag colors": "red, yellow, green",
-        "continent": "Africa",
-        "neighbors": ["Guinea-Bissau", "Senegal", "Mali", "Cote d'Ivoire", "Liberia", "Sierra Leone"],
-        "fact": "Rich in bauxite, the ore for aluminum."
-    },
-    "Guinea-Bissau": {
-        "initials": "G, B",
-        "flag colors": "red, yellow, green, black",
-        "continent": "Africa",
-        "neighbors": ["Senegal", "Guinea"],
-        "fact": "Small West African country, former Portuguese colony."
-    },
-    "Equatorial Guinea": {
-        "initials": "G, E",
-        "flag colors": "green, white, red, blue",
-        "continent": "Africa",
-        "neighbors": ["Cameroon", "Gabon"],
-        "fact": "Only African country with Spanish as an official language."
-    },
-    "Guyana": {
-        "initials": "G",
-        "flag colors": "green, red, yellow, white, black",
-        "continent": "Americas",
-        "neighbors": ["Venezuela", "Brazil", "Suriname"],
-        "fact": "Only English-speaking country in South America."
-    },
-    "Haiti": {
-        "initials": "H",
-        "flag colors": "blue, red",
-        "continent": "Americas",
-        "neighbors": ["Dominican Republic"],
-        "fact": "First country to gain independence through a slave revolt."
-    },
-    "Honduras": {
-        "initials": "H",
-        "flag colors": "blue, white",
-        "continent": "Americas",
-        "neighbors": ["Guatemala", "El Salvador", "Nicaragua"],
-        "fact": "Known for Mayan ruins at Copan."
-    },
-    "Hungary": {
-        "initials": "H",
-        "flag colors": "red, white, green",
-        "continent": "Europe",
-        "neighbors": ["Slovakia", "Austria", "Slovenia", "Croatia", "Serbia", "Romania", "Ukraine"],
-        "fact": "Famous for its capital Budapest and thermal baths."
-    },
-    "India": {
-        "initials": "I",
-        "flag colors": "orange, white, green, blue",
-        "continent": "Asia",
-        "neighbors": ["Pakistan", "China", "Nepal", "Bhutan", "Bangladesh", "Myanmar"],
-        "fact": "Most populous country in the world."
-    },
-    "Indonesia": {
-        "initials": "I",
-        "flag colors": "red, white",
-        "continent": "Asia",
-        "neighbors": ["Malaysia", "Papua New Guinea", "Timor-Leste"],
-        "fact": "Largest archipelagic country in the world with over 17,000 islands."
-    },
-    "Iraq": {
-        "initials": "I",
-        "flag colors": "red, white, black, green",
-        "continent": "Asia",
-        "neighbors": ["Turkey", "Syria", "Jordan", "Saudi Arabia", "Kuwait", "Iran"],
-        "fact": "Birthplace of ancient Mesopotamia, one of the earliest civilizations."
-    },
-    "Iran": {
-        "initials": "I",
-        "flag colors": "green, white, red",
-        "continent": "Asia",
-        "neighbors": ["Afghanistan", "Pakistan", "Turkmenistan", "Azerbaijan", "Armenia", "Turkey", "Iraq"],
-        "fact": "Former Persian Empire with rich history and Islamic culture."
-    },
-    "Ireland": {
-        "initials": "I",
-        "flag colors": "green, white, orange",
-        "continent": "Europe",
-        "neighbors": ["United Kingdom"],
-        "fact": "Known as the Emerald Isle for its landscape."
-    },
-    "Iceland": {
-        "initials": "I",
-        "flag colors": "blue, white, red",
-        "continent": "Europe",
-        "neighbors": ["Greenland", "United Kingdom", "Norway"],
-        "fact": "Land of volcanoes, geysers, and geothermal energy."
-    },
-    "Marshall Islands": {
-        "initials": "M, I",
-        "flag colors": "blue, orange, white",
-        "continent": "Oceania",
-        "neighbors": ["Micronesia", "Kiribati", "Nauru"],
-        "fact": "Former US nuclear testing site."
-    },
-    "Mauritius": {
-        "initials": "M",
-        "flag colors": "red, blue, yellow, green",
-        "continent": "Africa",
-        "neighbors": ["Madagascar", "Comoros", "Seychelles"],
-        "fact": "Famous for its beaches and the extinct dodo."
-    },
-    "Solomon Islands": {
-        "initials": "S, I",
-        "flag colors": "blue, green, yellow",
-        "continent": "Oceania",
-        "neighbors": ["Papua New Guinea", "Vanuatu"],
-        "fact": "Group of over 900 islands in the South Pacific."
-    },
-    "Israel": {
-        "initials": "I",
-        "flag colors": "white, blue",
-        "continent": "Asia",
-        "neighbors": ["Egypt", "Jordan", "Lebanon", "Syria", "Palestine"],
-        "fact": "Only Jewish democracy."
-    },
-    "Italy": {
-        "initials": "I",
-        "flag colors": "green, white, red",
-        "continent": "Europe",
-        "neighbors": ["France", "Switzerland", "Austria", "Slovenia", "San Marino", "Vatican City"],
-        "fact": "Birthplace of the Roman Empire and the Renaissance."
-    },
-    "Jamaica": {
-        "initials": "J",
-        "flag colors": "black, green, yellow",
-        "continent": "Americas",
-        "neighbors": ["Cuba", "Haiti", "Dominican Republic"],
-        "fact": "Birthplace of reggae and Usain Bolt."
-    },
-    "Japan": {
-        "initials": "J",
-        "flag colors": "white, red",
-        "continent": "Asia",
-        "neighbors": ["South Korea", "China", "Russia", "Taiwan"],
-        "fact": "Advanced technology and ancient tradition coexist."
-    },
-    "Jordan": {
-        "initials": "J",
-        "flag colors": "red, black, white, green",
-        "continent": "Asia",
-        "neighbors": ["Syria", "Iraq", "Saudi Arabia", "Israel", "Palestine"],
-        "fact": "Home to Petra, one of the wonders of the ancient world."
-    },
-    "Kazakhstan": {
-        "initials": "K",
-        "flag colors": "light blue, yellow",
-        "continent": "Asia",
-        "neighbors": ["Russia", "China", "Kyrgyzstan", "Uzbekistan", "Turkmenistan"],
-        "fact": "Largest landlocked country in the world."
-    },
-    "Kenya": {
-        "initials": "K",
-        "flag colors": "black, red, green, white",
-        "continent": "Africa",
-        "neighbors": ["Ethiopia", "Somalia", "Tanzania", "Uganda", "South Sudan"],
-        "fact": "Famous for safaris and elite runners."
-    },
-    "Kyrgyzstan": {
-        "initials": "K",
-        "flag colors": "red, yellow",
-        "continent": "Asia",
-        "neighbors": ["Kazakhstan", "Uzbekistan", "Tajikistan", "China"],
-        "fact": "Mountainous Central Asian country on the Silk Road."
-    },
-    "Kiribati": {
-        "initials": "K",
-        "flag colors": "red, white, blue",
-        "continent": "Oceania",
-        "neighbors": ["Fiji", "Tuvalu", "Marshall Islands", "Nauru", "Tonga"],
-        "fact": "Country with the most offset time zones (UTC +12 to +14)."
-    },
-    "Kosovo": {
-        "initials": "K",
-        "flag colors": "blue, white, yellow",
-        "continent": "Europe",
-        "neighbors": ["Montenegro", "Serbia", "Albania", "North Macedonia"],
-        "fact": "Europe's youngest country, independent from Serbia since 2008."
-    },
-    "Kuwait": {
-        "initials": "K",
-        "flag colors": "red, white, green, black",
-        "continent": "Asia",
-        "neighbors": ["Iraq", "Saudi Arabia"],
-        "fact": "Small oil-rich country in the Persian Gulf."
-    },
-    "Laos": {
-        "initials": "L",
-        "flag colors": "red, blue, white",
-        "continent": "Asia",
-        "neighbors": ["Vietnam", "Thailand", "Cambodia", "China", "Myanmar"],
-        "fact": "Heavily bombed during the Vietnam War."
-    },
-    "Lesotho": {
-        "initials": "L",
-        "flag colors": "blue, white, green, black",
-        "continent": "Africa",
-        "neighbors": ["South Africa"],
-        "fact": "Its territory is an enclave, completely surrounded by another nation."
-    },
-    "Latvia": {
-        "initials": "L",
-        "flag colors": "red, white",
-        "continent": "Europe",
-        "neighbors": ["Estonia", "Lithuania", "Russia", "Belarus"],
-        "fact": "Baltic country with rich cultural heritage."
-    },
-    "Lebanon": {
-        "initials": "L",
-        "flag colors": "red, white, green",
-        "continent": "Asia",
-        "neighbors": ["Syria", "Israel"],
-        "fact": "Its flag features a cedar, the national symbol."
-    },
-    "Liberia": {
-        "initials": "L",
-        "flag colors": "red, white, blue",
-        "continent": "Africa",
-        "neighbors": ["Sierra Leone", "Guinea", "Cote d'Ivoire"],
-        "fact": "Founded by freed slaves from the United States."
-    },
-    "Libya": {
-        "initials": "L",
-        "flag colors": "red, black, green",
-        "continent": "Africa",
-        "neighbors": ["Egypt", "Sudan", "Chad", "Niger", "Algeria", "Tunisia"],
-        "fact": "Ruled by Muammar Gaddafi for 42 years."
-    },
-    "Liechtenstein": {
-        "initials": "L",
-        "flag colors": "blue, red, gold",
-        "continent": "Europe",
-        "neighbors": ["Switzerland", "Austria"],
-        "fact": "Small Alpine principality and European financial hub."
-    },
-    "Lithuania": {
-        "initials": "L",
-        "flag colors": "yellow, green, red",
-        "continent": "Europe",
-        "neighbors": ["Latvia", "Belarus", "Poland", "Russia"],
-        "fact": "First country to break away from the USSR."
-    },
-    "Luxembourg": {
-        "initials": "L",
-        "flag colors": "red, white, blue",
-        "continent": "Europe",
-        "neighbors": ["Germany", "France", "Belgium"],
-        "fact": "Small country with a high GDP per capita."
-    },
-    "North Macedonia": {
-        "initials": "N, M",
-        "flag colors": "red, yellow",
-        "continent": "Europe",
-        "neighbors": ["Kosovo", "Bulgaria", "Greece", "Albania"],
-        "fact": "Former landlocked Yugoslav territory."
-    },
-    "Madagascar": {
-        "initials": "M",
-        "flag colors": "white, red, green",
-        "continent": "Africa",
-        "neighbors": ["Mozambique", "Comoros", "Mauritius", "Seychelles"],
-        "fact": "Unique island with endemic flora and fauna."
-    },
-    "Malaysia": {
-        "initials": "M",
-        "flag colors": "red, white, blue, yellow",
-        "continent": "Asia",
-        "neighbors": ["Thailand", "Indonesia", "Brunei", "Singapore"],
-        "fact": "Split into two regions separated by the South China Sea."
-    },
-    "Malawi": {
-        "initials": "M",
-        "flag colors": "black, red, green",
-        "continent": "Africa",
-        "neighbors": ["Mozambique", "Zambia", "Tanzania"],
-        "fact": "Known as the Warm Heart of Africa."
-    },
-    "Maldives": {
-        "initials": "M",
-        "flag colors": "red, green, white",
-        "continent": "Asia",
-        "neighbors": ["India", "Sri Lanka"],
-        "fact": "Lowest-lying country in the world."
-    },
-    "Mali": {
-        "initials": "M",
-        "flag colors": "green, yellow, red",
-        "continent": "Africa",
-        "neighbors": ["Algeria", "Niger", "Burkina Faso", "Cote d'Ivoire", "Guinea", "Senegal", "Mauritania"],
-        "fact": "Former center of the Timbuktu empire."
-    },
-    "Malta": {
-        "initials": "M",
-        "flag colors": "white, red",
-        "continent": "Europe",
-        "neighbors": ["Italy", "Tunisia", "Libya"],
-        "fact": "Strategic archipelago in the Mediterranean."
-    },
-    "Morocco": {
-        "initials": "M",
-        "flag colors": "red, green",
-        "continent": "Africa",
-        "neighbors": ["Algeria", "Spain"],
-        "fact": "Gateway between Africa and Europe with Berber and Arab influence."
-    },
-    "Mauritania": {
-        "initials": "M",
-        "flag colors": "green, yellow",
-        "continent": "Africa",
-        "neighbors": ["Algeria", "Mali", "Senegal"],
-        "fact": "Much of the country is covered by the Sahara Desert."
-    },
-    "Mexico": {
-        "initials": "M",
-        "flag colors": "green, white, red",
-        "continent": "Americas",
-        "neighbors": ["United States", "Guatemala", "Belize"],
-        "fact": "Rich indigenous heritage and cradle of civilizations like the Maya and Aztecs."
-    },
-    "Micronesia": {
-        "initials": "M",
-        "flag colors": "light blue, white",
-        "continent": "Oceania",
-        "neighbors": ["Marshall Islands", "Nauru", "Palau", "Papua New Guinea", "Solomon Islands"],
-        "fact": "Federation of small Pacific island states."
-    },
-    "Moldova": {
-        "initials": "M",
-        "flag colors": "blue, yellow, red",
-        "continent": "Europe",
-        "neighbors": ["Romania", "Ukraine"],
-        "fact": "One of the poorest countries in Europe."
-    },
-    "Monaco": {
-        "initials": "M",
-        "flag colors": "red, white",
-        "continent": "Europe",
-        "neighbors": ["France"],
-        "fact": "Second smallest country in the world and a luxury hub."
-    },
-    "Mongolia": {
-        "initials": "M",
-        "flag colors": "red, blue, yellow",
-        "continent": "Asia",
-        "neighbors": ["Russia", "China"],
-        "fact": "Vast steppe territory, homeland of Genghis Khan."
-    },
-    "Montenegro": {
-        "initials": "M",
-        "flag colors": "red, gold",
-        "continent": "Europe",
-        "neighbors": ["Croatia", "Bosnia and Herzegovina", "Serbia", "Kosovo", "Albania"],
-        "fact": "Balkan country with Adriatic coastline."
-    },
-    "Mozambique": {
-        "initials": "M",
-        "flag colors": "green, black, yellow, white, red",
-        "continent": "Africa",
-        "neighbors": ["Tanzania", "Malawi", "Zambia", "Zimbabwe", "Eswatini", "South Africa"],
-        "fact": "Its flag includes an AK-47, a symbol of defense."
-    },
-    "Myanmar": {
-        "initials": "M",
-        "flag colors": "red, green, yellow",
-        "continent": "Asia",
-        "neighbors": ["India", "China", "Thailand", "Laos", "Bangladesh"],
-        "fact": "Also known as Burma, in constant political conflict."
-    },
-    "Namibia": {
-        "initials": "N",
-        "flag colors": "blue, red, green, white, gold",
-        "continent": "Africa",
-        "neighbors": ["Angola", "Zambia", "Botswana", "South Africa"],
-        "fact": "Famous for the Namib Desert and unique landscapes."
-    },
-    "Nauru": {
-        "initials": "N",
-        "flag colors": "blue, white, gold",
-        "continent": "Oceania",
-        "neighbors": ["Marshall Islands", "Kiribati", "Micronesia"],
-        "fact": "Smallest island nation in the world."
-    },
-    "Nepal": {
-        "initials": "N",
-        "flag colors": "red, blue",
-        "continent": "Asia",
-        "neighbors": ["India", "China"],
-        "fact": "Home to Mount Everest, the highest point on Earth."
-    },
-    "Nicaragua": {
-        "initials": "N",
-        "flag colors": "blue, white",
-        "continent": "Americas",
-        "neighbors": ["Honduras", "Costa Rica"],
-        "fact": "Known for its lakes and volcanoes."
-    },
-    "Niger": {
-        "initials": "N",
-        "flag colors": "orange, white, green",
-        "continent": "Africa",
-        "neighbors": ["Algeria", "Libya", "Chad", "Nigeria", "Benin", "Burkina Faso", "Mali"],
-        "fact": "Largely covered by the Sahara Desert."
-    },
-    "Nigeria": {
-        "initials": "N",
-        "flag colors": "green, white",
-        "continent": "Africa",
-        "neighbors": ["Benin", "Niger", "Chad", "Cameroon"],
-        "fact": "Africa's most populous country and a major oil producer."
-    },
-    "Norway": {
-        "initials": "N",
-        "flag colors": "red, blue, white",
-        "continent": "Europe",
-        "neighbors": ["Sweden", "Finland", "Russia"],
-        "fact": "Famous for its fjords and quality of life."
-    },
-    "New Zealand": {
-        "initials": "NZ",
-        "flag colors": "blue, red, white",
-        "continent": "Oceania",
-        "neighbors": ["Australia", "Fiji", "Tonga"],
-        "fact": "Known for pristine nature and Maori culture."
-    },
-    "Oman": {
-        "initials": "O",
-        "flag colors": "red, white, green",
-        "continent": "Asia",
-        "neighbors": ["Saudi Arabia", "United Arab Emirates", "Yemen"],
-        "fact": "Gulf monarchy with deserts and forts."
-    },
-    "Netherlands": {
-        "initials": "N",
-        "flag colors": "red, white, blue",
-        "continent": "Europe",
-        "neighbors": ["Belgium", "Germany"],
-        "fact": "Famous for windmills, tulips, and canals."
-    },
-    "Pakistan": {
-        "initials": "P",
-        "flag colors": "green, white",
-        "continent": "Asia",
-        "neighbors": ["India", "China", "Afghanistan", "Iran"],
-        "fact": "Second most populous Muslim country in the world."
-    },
-    "Palau": {
-        "initials": "P",
-        "flag colors": "blue, yellow",
-        "continent": "Oceania",
-        "neighbors": ["Micronesia", "Philippines", "Indonesia"],
-        "fact": "Small island state known for marine biodiversity."
-    },
-    "Palestine": {
-        "initials": "P",
-        "flag colors": "black, white, green, red",
-        "continent": "Asia",
-        "neighbors": ["Israel", "Egypt", "Jordan"],
-        "fact": "Disputed territory in the Middle East."
-    },
-    "Panama": {
-        "initials": "P",
-        "flag colors": "red, white, blue",
-        "continent": "Americas",
-        "neighbors": ["Costa Rica", "Colombia"],
-        "fact": "Known for the canal linking the Atlantic and Pacific."
-    },
-    "Papua New Guinea": {
-        "initials": "PNG",
-        "flag colors": "black, red, yellow, white",
-        "continent": "Oceania",
-        "neighbors": ["Indonesia", "Solomon Islands", "Australia"],
-        "fact": "Great linguistic diversity, highly disconnected from mainstream civilization."
-    },
-    "Paraguay": {
-        "initials": "P",
-        "flag colors": "red, white, blue",
-        "continent": "Americas",
-        "neighbors": ["Argentina", "Brazil", "Bolivia"],
-        "fact": "Landlocked country with two official languages: Spanish and Guarani."
-    },
-    "Peru": {
-        "initials": "P",
-        "flag colors": "red, white",
-        "continent": "Americas",
-        "neighbors": ["Ecuador", "Colombia", "Brazil", "Bolivia", "Chile"],
-        "fact": "Birthplace of the Inca Empire and home to Machu Picchu."
-    },
-    "Poland": {
-        "initials": "P",
-        "flag colors": "white, red",
-        "continent": "Europe",
-        "neighbors": ["Germany", "Czech Republic", "Slovakia", "Ukraine", "Belarus", "Lithuania", "Russia"],
-        "fact": "Invasion in 1939 marked the start of World War II."
-    },
-    "Portugal": {
-        "initials": "P",
-        "flag colors": "red, green",
-        "continent": "Europe",
-        "neighbors": ["Spain"],
-        "fact": "Former global empire with historic ties in Africa, Asia, and Brazil."
-    },
-    "United Kingdom": {
-        "initials": "UK",
-        "flag colors": "red, white, blue",
-        "continent": "Europe",
-        "neighbors": ["Ireland"],
-        "fact": "Former global empire, now made up of four nations."
-    },
-    "Central African Republic": {
-        "initials": "CAR",
-        "flag colors": "blue, white, green, yellow, red",
-        "continent": "Africa",
-        "neighbors": ["Chad", "Sudan", "South Sudan", "Democratic Republic of the Congo", "Republic of the Congo", "Cameroon"],
-        "fact": "Country in chronic conflict with humanitarian challenges."
-    },
-    "Czech Republic": {
-        "initials": "CR",
-        "flag colors": "red, white, blue",
-        "continent": "Europe",
-        "neighbors": ["Germany", "Poland", "Austria", "Slovakia"],
-        "fact": "Prague, its capital, is an architectural gem of Europe."
-    },
-    "Democratic Republic of the Congo": {
-        "initials": "DRC",
-        "flag colors": "blue, red",
-        "continent": "Africa",
-        "neighbors": ["Cameroon", "Central African Republic", "Republic of the Congo", "Angola", "Burundi", "Rwanda", "South Sudan", "Tanzania", "Zambia", "Uganda"],
-        "fact": "Not to be confused with its similarly named neighbor."
-    },
-    "Republic of the Congo": {
-        "initials": "RC",
-        "flag colors": "green, yellow, red",
-        "continent": "Africa",
-        "neighbors": ["Gabon", "Cameroon", "Central African Republic", "Democratic Republic of the Congo", "Angola"],
-        "fact": "Not to be confused with its similarly named neighbor."
-    },
-    "Dominican Republic": {
-        "initials": "DR",
-        "flag colors": "blue, red, white",
-        "continent": "Americas",
-        "neighbors": ["Haiti"],
-        "fact": "Only country in the world with a Bible on its flag."
-    },
-    "Rwanda": {
-        "initials": "R",
-        "flag colors": "blue, yellow, green",
-        "continent": "Africa",
-        "neighbors": ["Uganda", "Tanzania", "Burundi", "Democratic Republic of the Congo"],
-        "fact": "Recovered from the 1994 genocide and is now a development model."
-    },
-    "Romania": {
-        "initials": "R",
-        "flag colors": "blue, yellow, red",
-        "continent": "Europe",
-        "neighbors": ["Ukraine", "Moldova", "Hungary", "Serbia", "Bulgaria"],
-        "fact": "Known for Transylvania and Dracula's castle."
-    },
-    "Russia": {
-        "initials": "R",
-        "flag colors": "white, blue, red",
-        "continent": "Europe/Asia",
-        "neighbors": ["Norway", "Finland", "Estonia", "Latvia", "Lithuania", "Poland", "Belarus", "Ukraine", "Georgia", "Azerbaijan", "Kazakhstan", "China", "Mongolia", "North Korea"],
-        "fact": "Largest country in the world, spanning 11 time zones."
-    },
-    "Samoa": {
-        "initials": "S",
-        "flag colors": "red, blue, white",
-        "continent": "Oceania",
-        "neighbors": ["Tonga", "Fiji"],
-        "fact": "One of the first countries to welcome the New Year."
-    },
-    "Saint Kitts and Nevis": {
-        "initials": "SKN",
-        "flag colors": "green, yellow, black, white, red",
-        "continent": "Americas",
-        "neighbors": ["Antigua and Barbuda"],
-        "fact": "Smallest country in the Western Hemisphere."
-    },
-    "San Marino": {
-        "initials": "S, M",
-        "flag colors": "white, blue",
-        "continent": "Europe",
-        "neighbors": ["Italy"],
-        "fact": "Oldest republic in the world (founded in 301 AD)."
-    },
-    "Saint Vincent and the Grenadines": {
-        "initials": "SVG",
-        "flag colors": "blue, yellow, green",
-        "continent": "Americas",
-        "neighbors": ["Saint Lucia", "Barbados", "Grenada"],
-        "fact": "Caribbean island nation of volcanic origin."
-    },
-    "Saint Lucia": {
-        "initials": "SL",
-        "flag colors": "blue, black, white, yellow",
-        "continent": "Americas",
-        "neighbors": ["Saint Vincent and the Grenadines", "Barbados", "Dominica"],
-        "fact": "Only country named after a woman."
-    },
-    "Sao Tome and Principe": {
-        "initials": "STP",
-        "flag colors": "green, yellow, red, black",
-        "continent": "Africa",
-        "neighbors": ["Gabon", "Equatorial Guinea", "Nigeria"],
-        "fact": "African island country in the Gulf of Guinea."
-    },
-    "Senegal": {
-        "initials": "S",
-        "flag colors": "green, yellow, red",
-        "continent": "Africa",
-        "neighbors": ["Mauritania", "Mali", "Guinea", "Guinea-Bissau", "Gambia"],
-        "fact": "Known for its music and hospitality."
-    },
-    "Serbia": {
-        "initials": "S",
-        "flag colors": "red, blue, white",
-        "continent": "Europe",
-        "neighbors": ["Hungary", "Romania", "Bulgaria", "North Macedonia", "Croatia", "Bosnia and Herzegovina", "Montenegro", "Kosovo"],
-        "fact": "Largest country that was part of former Yugoslavia."
-    },
-    "Seychelles": {
-        "initials": "S",
-        "flag colors": "blue, yellow, red, white, green",
-        "continent": "Africa",
-        "neighbors": ["Madagascar", "Comoros", "Mauritius"],
-        "fact": "Luxury archipelago in the Indian Ocean."
-    },
-    "Sierra Leone": {
-        "initials": "SL",
-        "flag colors": "green, white, blue",
-        "continent": "Africa",
-        "neighbors": ["Guinea", "Liberia"],
-        "fact": "Recovered from a civil war and the Ebola crisis."
-    },
-    "Singapore": {
-        "initials": "S",
-        "flag colors": "red, white",
-        "continent": "Asia",
-        "neighbors": ["Malaysia", "Indonesia"],
-        "fact": "Futuristic city-state and one of the world's financial centers."
-    },
-    "Syria": {
-        "initials": "S",
-        "flag colors": "red, white, black, green",
-        "continent": "Asia",
-        "neighbors": ["Turkey", "Iraq", "Jordan", "Israel", "Lebanon"],
-        "fact": "In civil war since 2011."
-    },
-    "Somalia": {
-        "initials": "S",
-        "flag colors": "blue, white",
-        "continent": "Africa",
-        "neighbors": ["Djibouti", "Ethiopia", "Kenya"],
-        "fact": "Notorious for piracy and humanitarian crisis."
-    },
-    "Sri Lanka": {
-        "initials": "SL",
-        "flag colors": "red, yellow, green, orange",
-        "continent": "Asia",
-        "neighbors": ["India", "Maldives"],
-        "fact": "Island known as the tear of India."
-    },
-    "South Africa": {
-        "initials": "S",
-        "flag colors": "green, yellow, black, white, red, blue",
-        "continent": "Africa",
-        "neighbors": ["Namibia", "Botswana", "Zimbabwe", "Mozambique", "Lesotho", "Eswatini"],
-        "fact": "Only country with three official capitals."
-    },
-    "Sudan": {
-        "initials": "S",
-        "flag colors": "red, white, black, green",
-        "continent": "Africa",
-        "neighbors": ["Egypt", "Libya", "Chad", "Central African Republic", "South Sudan", "Ethiopia", "Eritrea"],
-        "fact": "Split in two after decades of conflict."
-    },
-    "South Sudan": {
-        "initials": "S",
-        "flag colors": "blue, red, green, black, yellow",
-        "continent": "Africa",
-        "neighbors": ["Sudan", "Ethiopia", "Kenya", "Uganda", "Democratic Republic of the Congo", "Central African Republic"],
-        "fact": "World's youngest country, independent since 2011."
-    },
-    "Sweden": {
-        "initials": "S",
-        "flag colors": "blue, yellow",
-        "continent": "Europe",
-        "neighbors": ["Norway", "Finland"],
-        "fact": "Known for high standard of living and technological advances."
-    },
-    "Switzerland": {
-        "initials": "S",
-        "flag colors": "red, white",
-        "continent": "Europe",
-        "neighbors": ["Germany", "France", "Italy", "Austria", "Liechtenstein"],
-        "fact": "Historic political neutrality and global financial center."
-    },
-    "Suriname": {
-        "initials": "S",
-        "flag colors": "green, white, red, yellow",
-        "continent": "Americas",
-        "neighbors": ["Guyana", "Brazil"],
-        "fact": "South American country with strong Dutch influence."
-    },
-    "Thailand": {
-        "initials": "T",
-        "flag colors": "red, white, blue",
-        "continent": "Asia",
-        "neighbors": ["Myanmar", "Laos", "Cambodia", "Malaysia"],
-        "fact": "Never colonized, famous for its culture and beaches."
-    },
-    "Taiwan": {
-        "initials": "T",
-        "flag colors": "red, blue, white",
-        "continent": "Asia",
-        "neighbors": ["China", "Philippines", "Japan"],
-        "fact": "Highly developed and populated island with little international recognition."
-    },
-    "Tanzania": {
-        "initials": "T",
-        "flag colors": "green, black, blue, yellow",
-        "continent": "Africa",
-        "neighbors": ["Kenya", "Uganda", "Rwanda", "Burundi", "Democratic Republic of the Congo", "Zambia", "Malawi", "Mozambique"],
-        "fact": "Home to Kilimanjaro and Serengeti wildlife."
-    },
-    "Tajikistan": {
-        "initials": "T",
-        "flag colors": "red, white, green",
-        "continent": "Asia",
-        "neighbors": ["Uzbekistan", "Kyrgyzstan", "China", "Afghanistan"],
-        "fact": "Mountainous country with Soviet heritage and historic routes."
-    },
-    "Timor-Leste": {
-        "initials": "TL",
-        "flag colors": "red, black, yellow, white",
-        "continent": "Asia",
-        "neighbors": ["Indonesia"],
-        "fact": "One of Asia's youngest nations, independent since 2002."
-    },
-    "Togo": {
-        "initials": "T",
-        "flag colors": "green, yellow, red, white",
-        "continent": "Africa",
-        "neighbors": ["Ghana", "Benin", "Burkina Faso"],
-        "fact": "Small African country with a coast on the Gulf of Guinea."
-    },
-    "Tonga": {
-        "initials": "T",
-        "flag colors": "red, white",
-        "continent": "Oceania",
-        "neighbors": ["Fiji", "Samoa"],
-        "fact": "Polynesian monarchy with a strong traditional culture."
-    },
-    "Trinidad and Tobago": {
-        "initials": "TT",
-        "flag colors": "red, white, black",
-        "continent": "Americas",
-        "neighbors": ["Venezuela", "Grenada"],
-        "fact": "Famous for its carnival and calypso music."
-    },
-    "Tunisia": {
-        "initials": "T",
-        "flag colors": "red, white",
-        "continent": "Africa",
-        "neighbors": ["Algeria", "Libya"],
-        "fact": "Birthplace of the Arab Spring in 2010."
-    },
-    "Turkmenistan": {
-        "initials": "T",
-        "flag colors": "green, white, red",
-        "continent": "Asia",
-        "neighbors": ["Kazakhstan", "Uzbekistan", "Afghanistan", "Iran"],
-        "fact": "Authoritarian government with vast gas reserves."
-    },
-    "Turkey": {
-        "initials": "T",
-        "flag colors": "red, white",
-        "continent": "Asia/Europe",
-        "neighbors": ["Greece", "Bulgaria", "Georgia", "Armenia", "Azerbaijan", "Iran", "Iraq", "Syria"],
-        "fact": "Bridge between continents."
-    },
-    "Tuvalu": {
-        "initials": "T",
-        "flag colors": "blue, yellow, red, white",
-        "continent": "Oceania",
-        "neighbors": ["Kiribati", "Fiji"],
-        "fact": "Second least populated country in the world."
-    },
-    "Ukraine": {
-        "initials": "U",
-        "flag colors": "blue, yellow",
-        "continent": "Europe",
-        "neighbors": ["Russia", "Belarus", "Poland", "Slovakia", "Hungary", "Romania", "Moldova"],
-        "fact": "In conflict since 2014 over the annexation of Crimea."
-    },
-    "Uganda": {
-        "initials": "U",
-        "flag colors": "black, yellow, red",
-        "continent": "Africa",
-        "neighbors": ["Kenya", "South Sudan", "Democratic Republic of the Congo", "Rwanda", "Tanzania"],
-        "fact": "Source of the Nile and rich biodiversity."
-    },
-    "Uruguay": {
-        "initials": "U",
-        "flag colors": "light blue, white, yellow",
-        "continent": "Americas",
-        "neighbors": ["Brazil", "Argentina"],
-        "fact": "Pioneer in social rights in Latin America."
-    },
-    "Uzbekistan": {
-        "initials": "U",
-        "flag colors": "blue, white, green, red",
-        "continent": "Asia",
-        "neighbors": ["Kazakhstan", "Kyrgyzstan", "Tajikistan", "Afghanistan", "Turkmenistan"],
-        "fact": "Has the largest irrigation system in Central Asia."
-    },
-    "Vanuatu": {
-        "initials": "V",
-        "flag colors": "black, red, green, yellow",
-        "continent": "Oceania",
-        "neighbors": ["Solomon Islands", "Fiji"],
-        "fact": "Volcanic country with ancestral cultures."
-    },
-    "Venezuela": {
-        "initials": "V",
-        "flag colors": "yellow, blue, red",
-        "continent": "Americas",
-        "neighbors": ["Colombia", "Brazil", "Guyana"],
-        "fact": "Holds the world's largest proven oil reserves."
-    },
-    "Vietnam": {
-        "initials": "V",
-        "flag colors": "red, yellow",
-        "continent": "Asia",
-        "neighbors": ["China", "Laos", "Cambodia"],
-        "fact": "Known for the Vietnam War and recent economic growth."
-    },
-    "Yemen": {
-        "initials": "Y",
-        "flag colors": "red, white, black",
-        "continent": "Asia",
-        "neighbors": ["Saudi Arabia", "Oman"],
-        "fact": "In one of the world's worst ongoing humanitarian crises."
-    },
-    "Djibouti": {
-        "initials": "D",
-        "flag colors": "white, blue, green",
-        "continent": "Africa",
-        "neighbors": ["Eritrea", "Ethiopia", "Somalia"],
-        "fact": "Located on the Bab-el-Mandeb strait."
-    },
-    "Zambia": {
-        "initials": "Z",
-        "flag colors": "green, red, black, orange",
-        "continent": "Africa",
-        "neighbors": ["Angola", "Democratic Republic of the Congo", "Tanzania", "Malawi", "Mozambique", "Zimbabwe", "Namibia"],
-        "fact": "Known for Victoria Falls."
-    },
-    "Zimbabwe": {
-        "initials": "Z",
-        "flag colors": "green, yellow, red, black, white",
-        "continent": "Africa",
-        "neighbors": ["South Africa", "Botswana", "Zambia", "Mozambique"],
-        "fact": "Known for hyperinflation and British colonial heritage."
-    }
-    },
-    "flags_emojis": [
-        "🇦🇫",
-        "🇦🇱",
-        "🇩🇪",
-        "🇦🇩",
-        "🇦🇴",
-        "🇦🇬",
-        "🇸🇦",
-        "🇩🇿",
-        "🇦🇷",
-        "🇦🇲",
-        "🇦🇺",
-        "🇦🇹",
-        "🇦🇿",
-        "🇧🇸",
-        "🇧🇩",
-        "🇧🇧",
-        "🇧🇭",
-        "🇧🇪",
-        "🇧🇿",
-        "🇧🇯",
-        "🇧🇾",
-        "🇧🇴",
-        "🇧🇦",
-        "🇧🇼",
-        "🇧🇷",
-        "🇧🇳",
-        "🇧🇬",
-        "🇧🇫",
-        "🇧🇮",
-        "🇧🇹",
-        "🇨🇻",
-        "🇰🇭",
-        "🇨🇲",
-        "🇨🇦",
-        "🇶🇦",
-        "🇹🇩",
-        "🇨🇱",
-        "🇨🇳",
-        "🇨🇾",
-        "🇻🇦",
-        "🇨🇴",
-        "🇰🇲",
-        "🇰🇵",
-        "🇰🇷",
-        "🇨🇮",
-        "🇨🇷",
-        "🇭🇷",
-        "🇨🇺",
-        "🇩🇰",
-        "🇩🇲",
-        "🇪🇨",
-        "🇪🇬",
-        "🇸🇻",
-        "🇦🇪",
-        "🇪🇷",
-        "🇸🇰",
-        "🇸🇮",
-        "🇪🇸",
-        "🇺🇸",
-        "🇪🇪",
-        "🇸🇿",
-        "🇪🇹",
-        "🇵🇭",
-        "🇫🇮",
-        "🇫🇯",
-        "🇫🇷",
-        "🇬🇦",
-        "🇬🇲",
-        "🇬🇪",
-        "🇬🇭",
-        "🇬🇩",
-        "🇬🇷",
-        "🇬🇹",
-        "🇬🇳",
-        "🇬🇼",
-        "🇬🇶",
-        "🇬🇾",
-        "🇭🇹",
-        "🇭🇳",
-        "🇭🇺",
-        "🇮🇳",
-        "🇮🇩",
-        "🇮🇶",
-        "🇮🇷",
-        "🇮🇪",
-        "🇮🇸",
-        "🇲🇭",
-        "🇲🇺",
-        "🇸🇧",
-        "🇮🇱",
-        "🇮🇹",
-        "🇯🇲",
-        "🇯🇵",
-        "🇯🇴",
-        "🇰🇿",
-        "🇰🇪",
-        "🇰🇬",
-        "🇰🇮",
-        "🇽🇰",
-        "🇰🇼",
-        "🇱🇦",
-        "🇱🇸",
-        "🇱🇻",
-        "🇱🇧",
-        "🇱🇷",
-        "🇱🇾",
-        "🇱🇮",
-        "🇱🇹",
-        "🇱🇺",
-        "🇲🇰",
-        "🇲🇬",
-        "🇲🇾",
-        "🇲🇼",
-        "🇲🇻",
-        "🇲🇱",
-        "🇲🇹",
-        "🇲🇦",
-        "🇲🇷",
-        "🇲🇽",
-        "🇫🇲",
-        "🇲🇩",
-        "🇲🇨",
-        "🇲🇳",
-        "🇲🇪",
-        "🇲🇿",
-        "🇲🇲",
-        "🇳🇦",
-        "🇳🇷",
-        "🇳🇵",
-        "🇳🇮",
-        "🇳🇪",
-        "🇳🇬",
-        "🇳🇴",
-        "🇳🇿",
-        "🇴🇲",
-        "🇳🇱",
-        "🇵🇰",
-        "🇵🇼",
-        "🇵🇸",
-        "🇵🇦",
-        "🇵🇬",
-        "🇵🇾",
-        "🇵🇪",
-        "🇵🇱",
-        "🇵🇹",
-        "🇬🇧",
-        "🇨🇫",
-        "🇨🇿",
-        "🇨🇩",
-        "🇨🇬",
-        "🇩🇴",
-        "🇷🇼",
-        "🇷🇴",
-        "🇷🇺",
-        "🇼🇸",
-        "🇰🇳",
-        "🇸🇲",
-        "🇻🇨",
-        "🇱🇨",
-        "🇸🇹",
-        "🇸🇳",
-        "🇷🇸",
-        "🇸🇨",
-        "🇸🇱",
-        "🇸🇬",
-        "🇸🇾",
-        "🇸🇴",
-        "🇱🇰",
-        "🇿🇦",
-        "🇸🇩",
-        "🇸🇸",
-        "🇸🇪",
-        "🇨🇭",
-        "🇸🇷",
-        "🇹🇭",
-        "🇹🇼",
-        "🇹🇿",
-        "🇹🇯",
-        "🇹🇱",
-        "🇹🇬",
-        "🇹🇴",
-        "🇹🇹",
-        "🇹🇳",
-        "🇹🇲",
-        "🇹🇷",
-        "🇹🇻",
-        "🇺🇦",
-        "🇺🇬",
-        "🇺🇾",
-        "🇺🇿",
-        "🇻🇺",
-        "🇻🇪",
-        "🇻🇳",
-        "🇾🇪",
-        "🇩🇯",
-        "🇿🇲",
-        "🇿🇼"
+  "countries": {
+    "Afghanistan": [
+      "A",
+      "black, red, green, white",
+      "Asia",
+      ["Tajikistan", "Pakistan", "Turkmenistan", "Uzbekistan", "Iran", "China"],
+      "World's largest producer of opium poppies."
+    ],
+    "Albania": [
+      "A",
+      "red, black",
+      "Europe",
+      ["Greece", "North Macedonia", "Kosovo", "Montenegro"],
+      "Only European country with a Muslim majority and no official religion."
+    ],
+    "Algeria": [
+      "A",
+      "green, white, red",
+      "Africa",
+      ["Morocco", "Tunisia", "Libya", "Niger", "Mali", "Mauritania", "Western Sahara"],
+      "Largest country in Africa by area."
+    ],
+    "Andorra": [
+      "A",
+      "blue, red, yellow",
+      "Europe",
+      ["Spain", "France"],
+      "One of the world's smallest countries, considered a tax heaven."
+    ],
+    "Angola": [
+      "A",
+      "red, black, yellow",
+      "Africa",
+      ["Namibia", "Zambia", "Democratic Republic of the Congo", "Republic of the Congo"],
+      "Major oil producer in Africa."
+    ],
+    "Antigua and Barbuda": [
+      "AB",
+      "red, blue, black, white, yellow",
+      "America",
+      ["Saint Kitts and Nevis", "Dominica"],
+      "Made up of two main Caribbean islands."
+    ],
+    "Argentina": [
+      "A",
+      "blue, white, yellow",
+      "America",
+      ["Chile", "Bolivia", "Paraguay", "Brazil", "Uruguay"],
+      "Famous for mate and football."
+    ],
+    "Armenia": [
+      "A",
+      "red, blue, orange",
+      "Asia",
+      ["Turkey", "Georgia", "Iran", "Azerbaijan"],
+      "First country to adopt Christianity as its official religion."
+    ],
+    "Australia": [
+      "A",
+      "blue, white, red",
+      "Oceania",
+      ["Papua New Guinea", "Indonesia", "Timor-Leste", "New Zealand"],
+      "Home to unique species like kangaroos and koalas."
+    ],
+    "Austria": [
+      "A",
+      "red, white",
+      "Europe",
+      ["Germany", "Czech Republic", "Slovakia", "Hungary", "Slovenia", "Italy", "Switzerland", "Liechtenstein"],
+      "Famous for its musical heritage and Alpine culture."
+    ],
+    "Azerbaijan": [
+      "A",
+      "blue, red, green",
+      "Asia",
+      ["Russia", "Georgia", "Armenia", "Iran", "Turkey"],
+      "Major Caspian Sea oil producer."
+    ],
+    "Bahamas": [
+      "B",
+      "blue, yellow, black",
+      "America",
+      ["Cuba", "United States", "Haiti"],
+      "Tourist paradise known for its clear beaches."
+    ],
+    "Bahrain": [
+      "B",
+      "red, white",
+      "Asia",
+      ["Saudi Arabia"],
+      "Only country with an artificial border (bridge)."
+    ],
+    "Bangladesh": [
+      "B",
+      "green, red",
+      "Asia",
+      ["India", "Myanmar"],
+      "One of the most densely populated countries in the world."
+    ],
+    "Barbados": [
+      "B",
+      "blue, yellow, black",
+      "America",
+      ["Grenada", "Saint Lucia", "Saint Vincent and the Grenadines"],
+      "A coral island in eastern caribbean sea."
+    ],
+    "Belarus": [
+      "B",
+      "red, green, white",
+      "Europe",
+      ["Russia", "Ukraine", "Poland", "Lithuania", "Latvia"],
+      "Authoritarian government with Soviet influence."
+    ],
+    "Belgium": [
+      "B",
+      "black, yellow, red",
+      "Europe",
+      ["France", "Netherlands", "Germany", "Luxembourg"],
+      "Home of the European Union and famous by chocolate."
+    ],
+    "Belize": [
+      "B",
+      "blue, red, white",
+      "America",
+      ["Mexico", "Guatemala"],
+      "Only Central American country with English as an official language."
+    ],
+    "Benin": [
+      "B",
+      "green, yellow, red",
+      "Africa",
+      ["Togo", "Burkina Faso", "Niger", "Nigeria"],
+      "Birthplace of traditional voodoo."
+    ],
+    "Bhutan": [
+      "B",
+      "orange, yellow, white",
+      "Asia",
+      ["India", "China"],
+      "Country with the highest average elevation."
+    ],
+    "Bolivia": [
+      "B",
+      "red, yellow, green",
+      "America",
+      ["Peru", "Argentina", "Chile", "Brazil", "Paraguay"],
+      "Landlocked country in South America."
+    ],
+    "Bosnia and Herzegovina": [
+      "BH",
+      "blue, yellow, white",
+      "Europe",
+      ["Croatia", "Serbia", "Montenegro"],
+      "Shaped by the Balkan conflicts on the 90s."
+    ],
+    "Botswana": [
+      "B",
+      "blue, black, white",
+      "Africa",
+      ["Namibia", "Zimbabwe", "South Africa", "Zambia"],
+      "One of Africa's most stable countries."
+    ],
+    "Brazil": [
+      "B",
+      "green, yellow, blue",
+      "America",
+      ["Argentina", "Uruguay", "Paraguay", "Bolivia", "Peru", "Colombia", "Venezuela", "Guyana", "Suriname", "French Guiana"],
+      "Home to most of the Amazon rainforest."
+    ],
+    "Brunei": [
+      "B",
+      "yellow, white, black, red",
+      "Asia",
+      ["Malaysia"],
+      "Oil-rich nation ruled by a sultan."
+    ],
+    "Bulgaria": [
+      "B",
+      "white, green, red",
+      "Europe",
+      ["Romania", "Serbia", "North Macedonia", "Greece", "Turkey"],
+      "Known for its Orthodox monasteries and yogurt."
+    ],
+    "Burkina Faso": [
+      "BF",
+      "red, green, yellow",
+      "Africa",
+      ["Mali", "Niger", "Benin", "Togo", "Ghana", "Cote d'Ivoire"],
+      "Millitary government in Sahel region."
+    ],
+    "Burundi": [
+      "B",
+      "red, white, green",
+      "Africa",
+      ["Rwanda", "Tanzania", "Democratic Republic of the Congo"],
+      "Landlocked country in the Great Lakes region."
+    ],
+    "Cambodia": [
+      "C",
+      "red, blue, white",
+      "Asia",
+      ["Thailand", "Laos", "Vietnam"],
+      "Home to Angkor Wat, one of the largest temples in the world."
+    ],
+    "Cameroon": [
+      "C",
+      "green, red, yellow",
+      "Africa",
+      ["Nigeria", "Chad", "Central African Republic", "Gabon", "Equatorial Guinea", "Republic of the Congo"],
+      "Known as 'Africa in miniature' for its cultural and geographic diversity."
+    ],
+    "Canada": [
+      "C",
+      "red, white",
+      "America",
+      ["United States"],
+      "Second largest country in the world."
+    ],
+    "Cape Verde": [
+      "CV",
+      "blue, white, red, yellow",
+      "Africa",
+      ["Senegal", "Gambia", "Mauritania"],
+      "Volcanic archipelago in the Atlantic."
+    ],
+    "Central African Republic": [
+      "CAR",
+      "blue, white, green, yellow, red",
+      "Africa",
+      ["Chad", "Sudan", "South Sudan", "Democratic Republic of the Congo", "Republic of the Congo", "Cameroon"],
+      "Country in chronic conflict with humanitarian challenges."
+    ],
+    "Chad": [
+      "C",
+      "blue, yellow, red",
+      "Africa",
+      ["Libya", "Sudan", "Central African Republic", "Cameroon", "Nigeria", "Niger"],
+      "Landlocked country with a vast Saharan desert presence."
+    ],
+    "Chile": [
+      "C",
+      "red, white, blue",
+      "America",
+      ["Argentina", "Bolivia", "Peru"],
+      "Most proportionally long country."
+    ],
+    "China": [
+      "C",
+      "red, yellow",
+      "Asia",
+      ["India", "Pakistan", "Nepal", "Bhutan", "Russia", "Mongolia", "North Korea", "Vietnam", "Laos", "Myanmar", "Afghanistan", "Kazakhstan", "Tajikistan", "Kyrgyzstan"],
+      "Second strongest global economy."
+    ],
+    "Colombia": [
+      "C",
+      "yellow, blue, red",
+      "America",
+      ["Venezuela", "Brazil", "Peru", "Ecuador", "Panama"],
+      "Only South American country with coasts on both the Pacific and Atlantic."
+    ],
+    "Comoros": [
+      "C",
+      "green, white, red, yellow, blue",
+      "Africa",
+      ["Madagascar", "Mozambique", "Tanzania"],
+      "Volcanic archipelago in the Indian Ocean."
+    ],
+    "Costa Rica": [
+      "CR",
+      "blue, white, red",
+      "America",
+      ["Nicaragua", "Panama"],
+      "Abolished its army in 1949 and rich in biodiversity."
+    ],
+    "Cote d Ivoire": [
+      "CI",
+      "orange, white, green",
+      "Africa",
+      ["Liberia", "Guinea", "Mali", "Burkina Faso", "Ghana"],
+      "World's leading exporter of cocoa."
+    ],
+    "Croatia": [
+      "C",
+      "red, white, blue",
+      "Europe",
+      ["Slovenia", "Hungary", "Serbia", "Bosnia and Herzegovina", "Montenegro"],
+      "Has a spectacular Adriatic coastline."
+    ],
+    "Cuba": [
+      "C",
+      "red, white, blue",
+      "America",
+      ["United States", "Mexico", "Haiti", "Jamaica", "Bahamas"],
+      "Known for its socialist system and Caribbean music."
+    ],
+    "Cyprus": [
+      "C",
+      "white, orange, green",
+      "Asia",
+      ["Turkey", "Greece", "Syria", "Lebanon", "Israel", "Egypt"],
+      "Island divided between Greek Cypriots and Turkish Cypriots."
+    ],
+    "Czech Republic": [
+      "CR",
+      "red, white, blue",
+      "Europe",
+      ["Germany", "Poland", "Austria", "Slovakia"],
+      "Prague, its capital, is an architectural gem of Europe."
+    ],
+    "Democratic Republic of the Congo": [
+      "DRC",
+      "blue, red",
+      "Africa",
+      ["Cameroon", "Central African Republic", "Republic of the Congo", "Angola", "Burundi", "Rwanda", "South Sudan", "Tanzania", "Zambia", "Uganda"],
+      "Not to be confused with its similarly named neighbor."
+    ],
+    "Denmark": [
+      "D",
+      "red, white",
+      "Europe",
+      ["Germany"],
+      "Its continental territory is smaller than its island."
+    ],
+    "Djibouti": [
+      "D",
+      "white, blue, green",
+      "Africa",
+      ["Eritrea", "Ethiopia", "Somalia"],
+      "Located on the Bab-al-Mandeb strait."
+    ],
+    "Dominica": [
+      "D",
+      "green, yellow, black, white, red",
+      "America",
+      ["Antigua and Barbuda", "Saint Lucia"],
+      "Not to be confused with the Dominican Republic; it is a volcanic Caribbean island."
+    ],
+    "Dominican Republic": [
+      "DR",
+      "blue, red, white",
+      "America",
+      ["Haiti"],
+      "Only country in the world with a Bible on its flag."
+    ],
+    "Ecuador": [
+      "E",
+      "yellow, blue, red",
+      "America",
+      ["Colombia", "Peru"],
+      "Home to the Galapagos Islands, famous for biodiversity."
+    ],
+    "Egypt": [
+      "E",
+      "red, white, black",
+      "Africa",
+      ["Libya", "Sudan", "Israel", "Palestine"],
+      "Home to the pyramids, one of the seven wonders of the ancient world."
+    ],
+    "El Salvador": [
+      "E, S",
+      "blue, white",
+      "America",
+      ["Guatemala", "Honduras"],
+      "Smallest country in mainland America."
+    ],
+    "Equatorial Guinea": [
+      "EG",
+      "green, white, red, blue",
+      "Africa",
+      ["Cameroon", "Gabon"],
+      "Only African country with Spanish as an official language."
+    ],
+    "Eritrea": [
+      "E",
+      "green, red, blue, yellow",
+      "Africa",
+      ["Sudan", "Ethiopia", "Djibouti"],
+      "With a long history of conflict with Ethiopia."
+    ],
+    "Estonia": [
+      "E",
+      "blue, black, white",
+      "Europe",
+      ["Latvia", "Russia"],
+      "Highly digitalized country with e-government."
+    ],
+    "Eswatini": [
+      "E",
+      "blue, red, yellow",
+      "Africa",
+      ["South Africa", "Mozambique"],
+      "Absolute African monarchy, formerly known as Kingdom of Swaziland."
+    ],
+    "Ethiopia": [
+      "E",
+      "green, yellow, red",
+      "Africa",
+      ["Eritrea", "Sudan", "South Sudan", "Kenya", "Somalia", "Djibouti"],
+      "Currently the country where the oldest human remains have been discovered."
+    ],
+    "Fiji": [
+      "F",
+      "light blue, white, red",
+      "Oceania",
+      ["Tonga", "Vanuatu", "Solomon Islands", "Samoa"],
+      "Made up of over 300 volcanic islands."
+    ],
+    "Finland": [
+      "F",
+      "blue, white",
+      "Europe",
+      ["Sweden", "Norway", "Russia"],
+      "Renowned for its education system and quality of life."
+    ],
+    "France": [
+      "F",
+      "blue, white, red",
+      "Europe",
+      ["Belgium", "Luxembourg", "Germany", "Switzerland", "Italy", "Spain", "Andorra", "Monaco"],
+      "Most visited country in the world by international tourists."
+    ],
+    "Gabon": [
+      "G",
+      "green, yellow, blue",
+      "Africa",
+      ["Equatorial Guinea", "Cameroon", "Republic of the Congo"],
+      "Much of its territory is covered by rainforest."
+    ],
+    "Gambia": [
+      "G",
+      "red, blue, green, white",
+      "Africa",
+      ["Senegal"],
+      "Smallest country on mainland Africa."
+    ],
+    "Georgia": [
+      "G",
+      "white, red",
+      "Asia",
+      ["Russia", "Azerbaijan", "Armenia", "Turkey"],
+      "Located in the Caucasus, between Europe and Asia."
+    ],
+    "Germany": [
+      "G",
+      "black, yellow, red",
+      "Europe",
+      ["Denmark", "Poland", "Czech Republic", "Austria", "Switzerland", "France", "Luxembourg", "Belgium", "Netherlands"],
+      "Beyond loving beer, they have Europe's largest economy."
+    ],
+    "Ghana": [
+      "G",
+      "red, yellow, green, black",
+      "Africa",
+      ["Cote d'Ivoire", "Burkina Faso", "Togo"],
+      "First African colony to gain independence in 1957."
+    ],
+    "Greece": [
+      "G",
+      "blue, white",
+      "Europe",
+      ["Albania", "North Macedonia", "Bulgaria", "Turkey"],
+      "Cradle of democracy and Western philosophy."
+    ],
+    "Grenada": [
+      "G",
+      "red, yellow, green",
+      "America",
+      ["Saint Vincent and the Grenadines", "Trinidad and Tobago", "Venezuela", "Barbados"],
+      "Caribbean island famous for nutmeg production."
+    ],
+    "Guatemala": [
+      "G",
+      "blue, white",
+      "America",
+      ["Mexico", "Belize", "Honduras", "El Salvador"],
+      "Home to major Mayan ruins like Tikal."
+    ],
+    "Guinea": [
+      "G",
+      "red, yellow, green",
+      "Africa",
+      ["Guinea-Bissau", "Senegal", "Mali", "Cote d'Ivoire", "Liberia", "Sierra Leone"],
+      "Rich in bauxite, the ore for aluminum."
+    ],
+    "Guinea-Bissau": [
+      "GB",
+      "red, yellow, green, black",
+      "Africa",
+      ["Senegal", "Guinea"],
+      "Small West African country, former Portuguese colony."
+    ],
+    "Guyana": [
+      "G",
+      "green, red, yellow, white, black",
+      "America",
+      ["Venezuela", "Brazil", "Suriname"],
+      "Only English-speaking country in South America."
+    ],
+    "Haiti": [
+      "H",
+      "blue, red",
+      "America",
+      ["Dominican Republic"],
+      "First country to gain independence through a slave revolt."
+    ],
+    "Honduras": [
+      "H",
+      "blue, white",
+      "America",
+      ["Guatemala", "El Salvador", "Nicaragua"],
+      "Known for Mayan ruins at Copan."
+    ],
+    "Hungary": [
+      "H",
+      "red, white, green",
+      "Europe",
+      ["Slovakia", "Austria", "Slovenia", "Croatia", "Serbia", "Romania", "Ukraine"],
+      "Famous for its capital Budapest and thermal baths."
+    ],
+    "Iceland": [
+      "I",
+      "blue, white, red",
+      "Europe",
+      ["Greenland", "United Kingdom", "Norway"],
+      "Land of volcanoes, geysers, and geothermal energy."
+    ],
+    "India": [
+      "I",
+      "orange, white, green, blue",
+      "Asia",
+      ["Pakistan", "China", "Nepal", "Bhutan", "Bangladesh", "Myanmar"],
+      "Most populous country in the world."
+    ],
+    "Indonesia": [
+      "I",
+      "red, white",
+      "Asia",
+      ["Malaysia", "Papua New Guinea", "Timor-Leste"],
+      "Largest archipelagic country in the world with over 17,000 islands."
+    ],
+    "Iran": [
+      "I",
+      "green, white, red",
+      "Asia",
+      ["Afghanistan", "Pakistan", "Turkmenistan", "Azerbaijan", "Armenia", "Turkey", "Iraq"],
+      "Former Persian Empire with rich history and Islamic culture."
+    ],
+    "Iraq": [
+      "I",
+      "red, white, black, green",
+      "Asia",
+      ["Turkey", "Syria", "Jordan", "Saudi Arabia", "Kuwait", "Iran"],
+      "Birthplace of ancient Mesopotamia, one of the earliest civilizations."
+    ],
+    "Ireland": [
+      "I",
+      "green, white, orange",
+      "Europe",
+      ["United Kingdom"],
+      "Known as the Emerald Isle for its landscape."
+    ],
+    "Israel": [
+      "I",
+      "white, blue",
+      "Asia",
+      ["Egypt", "Jordan", "Lebanon", "Syria", "Palestine"],
+      "Only Jewish democracy."
+    ],
+    "Italy": [
+      "I",
+      "green, white, red",
+      "Europe",
+      ["France", "Switzerland", "Austria", "Slovenia", "San Marino", "Vatican City"],
+      "Birthplace of the Roman Empire and the Renaissance."
+    ],
+    "Jamaica": [
+      "J",
+      "black, green, yellow",
+      "America",
+      ["Cuba", "Haiti", "Dominican Republic"],
+      "Birthplace of reggae and Usain Bolt."
+    ],
+    "Japan": [
+      "J",
+      "white, red",
+      "Asia",
+      ["South Korea", "China", "Russia", "Taiwan"],
+      "Advanced technology and ancient tradition coexist."
+    ],
+    "Jordan": [
+      "J",
+      "red, black, white, green",
+      "Asia",
+      ["Syria", "Iraq", "Saudi Arabia", "Israel", "Palestine"],
+      "Home to Petra, one of the wonders of the ancient world."
+    ],
+    "Kazakhstan": [
+      "K",
+      "blue, yellow",
+      "Asia",
+      ["Russia", "China", "Kyrgyzstan", "Uzbekistan", "Turkmenistan"],
+      "Largest landlocked country in the world."
+    ],
+    "Kenya": [
+      "K",
+      "black, red, green, white",
+      "Africa",
+      ["Ethiopia", "Somalia", "Tanzania", "Uganda", "South Sudan"],
+      "Famous for safaris and elite runners."
+    ],
+    "Kiribati": [
+      "K",
+      "red, white, blue",
+      "Oceania",
+      ["Fiji", "Tuvalu", "Marshall Islands", "Nauru", "Tonga"],
+      "Country with the most offset time zones (UTC +12 to +14)."
+    ],
+    "Kosovo": [
+      "K",
+      "blue, white, yellow",
+      "Europe",
+      ["Montenegro", "Serbia", "Albania", "North Macedonia"],
+      "Europe's youngest country, independent from Serbia since 2008."
+    ],
+    "Kuwait": [
+      "K",
+      "red, white, green, black",
+      "Asia",
+      ["Iraq", "Saudi Arabia"],
+      "Small oil-rich country in the Persian Gulf."
+    ],
+    "Kyrgyzstan": [
+      "K",
+      "red, yellow",
+      "Asia",
+      ["Kazakhstan", "Uzbekistan", "Tajikistan", "China"],
+      "Mountainous Central Asian country on the Silk Road."
+    ],
+    "Laos": [
+      "L",
+      "red, blue, white",
+      "Asia",
+      ["Vietnam", "Thailand", "Cambodia", "China", "Myanmar"],
+      "Heavily bombed during the Vietnam War."
+    ],
+    "Latvia": [
+      "L",
+      "red, white",
+      "Europe",
+      ["Estonia", "Lithuania", "Russia", "Belarus"],
+      "Baltic country with rich cultural heritage."
+    ],
+    "Lebanon": [
+      "L",
+      "red, white, green",
+      "Asia",
+      ["Syria", "Israel"],
+      "Its flag features a cedar, the national symbol."
+    ],
+    "Lesotho": [
+      "L",
+      "blue, white, green, black",
+      "Africa",
+      ["South Africa"],
+      "Its territory is an enclave, completely surrounded by another nation."
+    ],
+    "Liberia": [
+      "L",
+      "red, white, blue",
+      "Africa",
+      ["Sierra Leone", "Guinea", "Cote d'Ivoire"],
+      "Founded by freed slaves from the United States."
+    ],
+    "Libya": [
+      "L",
+      "red, black, green",
+      "Africa",
+      ["Egypt", "Sudan", "Chad", "Niger", "Algeria", "Tunisia"],
+      "Ruled by Muammar Gaddafi for 42 years."
+    ],
+    "Liechtenstein": [
+      "L",
+      "blue, red, yellow",
+      "Europe",
+      ["Switzerland", "Austria"],
+      "Small Alpine principality and European financial hub."
+    ],
+    "Lithuania": [
+      "L",
+      "yellow, green, red",
+      "Europe",
+      ["Latvia", "Belarus", "Poland", "Russia"],
+      "First country to break away from the USSR."
+    ],
+    "Luxembourg": [
+      "L",
+      "red, white, blue",
+      "Europe",
+      ["Germany", "France", "Belgium"],
+      "Small country with a high GDP per capita."
+    ],
+    "Madagascar": [
+      "M",
+      "white, red, green",
+      "Africa",
+      ["Mozambique", "Comoros", "Mauritius", "Seychelles"],
+      "Unique island with endemic flora and fauna."
+    ],
+    "Malawi": [
+      "M",
+      "black, red, green",
+      "Africa",
+      ["Mozambique", "Zambia", "Tanzania"],
+      "Known as the Warm Heart of Africa."
+    ],
+    "Malaysia": [
+      "M",
+      "red, white, blue, yellow",
+      "Asia",
+      ["Thailand", "Indonesia", "Brunei", "Singapore"],
+      "Split into two regions separated by the South China Sea."
+    ],
+    "Maldives": [
+      "M",
+      "red, green, white",
+      "Asia",
+      ["India", "Sri Lanka"],
+      "Lowest-lying country in the world."
+    ],
+    "Mali": [
+      "M",
+      "green, yellow, red",
+      "Africa",
+      ["Algeria", "Niger", "Burkina Faso", "Cote d'Ivoire", "Guinea", "Senegal", "Mauritania"],
+      "Former center of the Timbuktu empire."
+    ],
+    "Malta": [
+      "M",
+      "white, red",
+      "Europe",
+      ["Italy", "Tunisia", "Libya"],
+      "Strategic archipelago in the Mediterranean."
+    ],
+    "Marshall Islands": [
+      "MI",
+      "blue, orange, white",
+      "Oceania",
+      ["Micronesia", "Kiribati", "Nauru"],
+      "Former US nuclear testing site."
+    ],
+    "Mauritania": [
+      "M",
+      "green, yellow",
+      "Africa",
+      ["Algeria", "Mali", "Senegal"],
+      "Much of the country is covered by the Sahara Desert."
+    ],
+    "Mauritius": [
+      "M",
+      "red, blue, yellow, green",
+      "Africa",
+      ["Madagascar", "Comoros", "Seychelles"],
+      "Famous for its beaches and the extinct dodo."
+    ],
+    "Mexico": [
+      "M",
+      "green, white, red",
+      "America",
+      ["United States", "Guatemala", "Belize"],
+      "Rich indigenous heritage and cradle of civilizations like the Maya and Aztecs."
+    ],
+    "Micronesia": [
+      "M",
+      "blue, white",
+      "Oceania",
+      ["Marshall Islands", "Nauru", "Palau", "Papua New Guinea", "Solomon Islands"],
+      "Federation of small Pacific island states."
+    ],
+    "Moldova": [
+      "M",
+      "blue, yellow, red",
+      "Europe",
+      ["Romania", "Ukraine"],
+      "One of the poorest countries in Europe."
+    ],
+    "Monaco": [
+      "M",
+      "red, white",
+      "Europe",
+      ["France"],
+      "Second smallest country in the world and a luxury hub."
+    ],
+    "Mongolia": [
+      "M",
+      "red, blue, yellow",
+      "Asia",
+      ["Russia", "China"],
+      "Vast steppe territory, homeland of Genghis Khan."
+    ],
+    "Montenegro": [
+      "M",
+      "red, yellow",
+      "Europe",
+      ["Croatia", "Bosnia and Herzegovina", "Serbia", "Kosovo", "Albania"],
+      "Balkan country with Adriatic coastline."
+    ],
+    "Morocco": [
+      "M",
+      "red, green",
+      "Africa",
+      ["Algeria", "Spain"],
+      "Gateway between Africa and Europe with Berber and Arab influence."
+    ],
+    "Mozambique": [
+      "M",
+      "green, black, yellow, white, red",
+      "Africa",
+      ["Tanzania", "Malawi", "Zambia", "Zimbabwe", "Eswatini", "South Africa"],
+      "Its flag includes an AK-47, a symbol of defense."
+    ],
+    "Myanmar": [
+      "M",
+      "red, green, yellow",
+      "Asia",
+      ["India", "China", "Thailand", "Laos", "Bangladesh"],
+      "Also known as Burma, in constant political conflict."
+    ],
+    "Namibia": [
+      "N",
+      "blue, red, green, white, yellow",
+      "Africa",
+      ["Angola", "Zambia", "Botswana", "South Africa"],
+      "Famous for the Namib Desert and unique landscapes."
+    ],
+    "Nauru": [
+      "N",
+      "blue, white, yellow",
+      "Oceania",
+      ["Marshall Islands", "Kiribati", "Micronesia"],
+      "Smallest island nation in the world."
+    ],
+    "Nepal": [
+      "N",
+      "red, blue",
+      "Asia",
+      ["India", "China"],
+      "Home to Mount Everest, the highest point on Earth."
+    ],
+    "Netherlands": [
+      "N",
+      "red, white, blue",
+      "Europe",
+      ["Belgium", "Germany"],
+      "Famous for windmills, tulips, and canals."
+    ],
+    "New Zealand": [
+      "NZ",
+      "blue, red, white",
+      "Oceania",
+      ["Australia", "Fiji", "Tonga"],
+      "Known for pristine nature and Maori culture."
+    ],
+    "Nicaragua": [
+      "N",
+      "blue, white",
+      "America",
+      ["Honduras", "Costa Rica"],
+      "Known for its lakes and volcanoes."
+    ],
+    "Niger": [
+      "N",
+      "orange, white, green",
+      "Africa",
+      ["Algeria", "Libya", "Chad", "Nigeria", "Benin", "Burkina Faso", "Mali"],
+      "Largely covered by the Sahara Desert."
+    ],
+    "Nigeria": [
+      "N",
+      "green, white",
+      "Africa",
+      ["Benin", "Niger", "Chad", "Cameroon"],
+      "Africa's most populous country and a major oil producer."
+    ],
+    "North Korea": [
+      "NK",
+      "red, blue, white",
+      "Asia",
+      ["China", "South Korea", "Russia"],
+      "Dictatorial regime and closed society."
+    ],
+    "North Macedonia": [
+      "NM",
+      "red, yellow",
+      "Europe",
+      ["Kosovo", "Bulgaria", "Greece", "Albania"],
+      "Former landlocked Yugoslav territory."
+    ],
+    "Norway": [
+      "N",
+      "red, blue, white",
+      "Europe",
+      ["Sweden", "Finland", "Russia"],
+      "Famous for its fjords and quality of life."
+    ],
+    "Oman": [
+      "O",
+      "red, white, green",
+      "Asia",
+      ["Saudi Arabia", "United Arab Emirates", "Yemen"],
+      "Gulf monarchy with deserts and forts."
+    ],
+    "Pakistan": [
+      "P",
+      "green, white",
+      "Asia",
+      ["India", "China", "Afghanistan", "Iran"],
+      "Second most populous Muslim country in the world."
+    ],
+    "Palau": [
+      "P",
+      "blue, yellow",
+      "Oceania",
+      ["Micronesia", "Philippines", "Indonesia"],
+      "Small island state known for marine biodiversity."
+    ],
+    "Palestine": [
+      "P",
+      "black, white, green, red",
+      "Asia",
+      ["Israel", "Egypt", "Jordan"],
+      "Disputed territory in the Middle East."
+    ],
+    "Panama": [
+      "P",
+      "red, white, blue",
+      "America",
+      ["Costa Rica", "Colombia"],
+      "Known for the canal linking the Atlantic and Pacific."
+    ],
+    "Papua New Guinea": [
+      "PNG",
+      "black, red, yellow, white",
+      "Oceania",
+      ["Indonesia", "Solomon Islands", "Australia"],
+      "Great linguistic diversity, highly disconnected from mainstream civilization."
+    ],
+    "Paraguay": [
+      "P",
+      "red, white, blue",
+      "America",
+      ["Argentina", "Brazil", "Bolivia"],
+      "Landlocked country with two official languages: Spanish and Guarani."
+    ],
+    "Peru": [
+      "P",
+      "red, white",
+      "America",
+      ["Ecuador", "Colombia", "Brazil", "Bolivia", "Chile"],
+      "Birthplace of the Inca Empire and home to Machu Picchu."
+    ],
+    "Philippines": [
+      "P",
+      "blue, red, white, yellow",
+      "Asia",
+      ["Malaysia", "Vietnam", "Indonesia", "Taiwan"],
+      "Former Spanish colony and later American."
+    ],
+    "Poland": [
+      "P",
+      "white, red",
+      "Europe",
+      ["Germany", "Czech Republic", "Slovakia", "Ukraine", "Belarus", "Lithuania", "Russia"],
+      "Invasion in 1939 marked the start of World War II."
+    ],
+    "Portugal": [
+      "P",
+      "red, green",
+      "Europe",
+      ["Spain"],
+      "Former global empire with historic ties in Africa, Asia, and Brazil."
+    ],
+    "Qatar": [
+      "Q",
+      "crimson, white",
+      "Asia",
+      ["Saudi Arabia"],
+      "Hosted the 2022 FIFA World Cup."
+    ],
+    "Republic of the Congo": [
+      "RC",
+      "green, yellow, red",
+      "Africa",
+      ["Gabon", "Cameroon", "Central African Republic", "Democratic Republic of the Congo", "Angola"],
+      "Not to be confused with its similarly named neighbor."
+    ],
+    "Romania": [
+      "R",
+      "blue, yellow, red",
+      "Europe",
+      ["Ukraine", "Moldova", "Hungary", "Serbia", "Bulgaria"],
+      "Known for Transylvania and Dracula's castle."
+    ],
+    "Russia": [
+      "R",
+      "white, blue, red",
+      "Europe/Asia",
+      ["Norway", "Finland", "Estonia", "Latvia", "Lithuania", "Poland", "Belarus", "Ukraine", "Georgia", "Azerbaijan", "Kazakhstan", "China", "Mongolia", "North Korea"],
+      "Largest country in the world, spanning 11 time zones."
+    ],
+    "Rwanda": [
+      "R",
+      "blue, yellow, green",
+      "Africa",
+      ["Uganda", "Tanzania", "Burundi", "Democratic Republic of the Congo"],
+      "Recovered from the 1994 genocide and is now a development model."
+    ],
+    "Saint Kitts and Nevis": [
+      "SKN",
+      "green, yellow, black, white, red",
+      "America",
+      ["Antigua and Barbuda"],
+      "Smallest country in the Western Hemisphere."
+    ],
+    "Saint Lucia": [
+      "SL",
+      "blue, black, white, yellow",
+      "America",
+      ["Saint Vincent and the Grenadines", "Barbados", "Dominica"],
+      "Only country named after a woman."
+    ],
+    "Saint Vincent and the Grenadines": [
+      "SVG",
+      "blue, yellow, green",
+      "America",
+      ["Saint Lucia", "Barbados", "Grenada"],
+      "Caribbean island nation of volcanic origin."
+    ],
+    "Samoa": [
+      "S",
+      "red, blue, white",
+      "Oceania",
+      ["Tonga", "Fiji"],
+      "One of the first countries to welcome the New Year."
+    ],
+    "San Marino": [
+      "SM",
+      "white, blue",
+      "Europe",
+      ["Italy"],
+      "Oldest republic in the world (founded in 301 AD)."
+    ],
+    "Sao Tome and Principe": [
+      "STP",
+      "green, yellow, red, black",
+      "Africa",
+      ["Gabon", "Equatorial Guinea", "Nigeria"],
+      "African island country in the Gulf of Guinea."
+    ],
+    "Saudi Arabia": [
+      "SA",
+      "green, white",
+      "Asia",
+      ["Yemen", "Oman", "UAE", "Qatar", "Bahrain", "Kuwait", "Iraq", "Jordan"],
+      "Home to Islam's holy cities, Mecca and Medina."
+    ],
+    "Senegal": [
+      "S",
+      "green, yellow, red",
+      "Africa",
+      ["Mauritania", "Mali", "Guinea", "Guinea-Bissau", "Gambia"],
+      "Known for its music and hospitality."
+    ],
+    "Serbia": [
+      "S",
+      "red, blue, white",
+      "Europe",
+      ["Hungary", "Romania", "Bulgaria", "North Macedonia", "Croatia", "Bosnia and Herzegovina", "Montenegro", "Kosovo"],
+      "Largest country that was part of former Yugoslavia."
+    ],
+    "Seychelles": [
+      "S",
+      "blue, yellow, red, white, green",
+      "Africa",
+      ["Madagascar", "Comoros", "Mauritius"],
+      "Luxury archipelago in the Indian Ocean."
+    ],
+    "Sierra Leone": [
+      "SL",
+      "green, white, blue",
+      "Africa",
+      ["Guinea", "Liberia"],
+      "Recovered from a civil war and the Ebola crisis."
+    ],
+    "Singapore": [
+      "S",
+      "red, white",
+      "Asia",
+      ["Malaysia", "Indonesia"],
+      "Futuristic city-state and one of the world's financial centers."
+    ],
+    "Slovakia": [
+      "S",
+      "white, blue, red",
+      "Europe",
+      ["Czech Republic", "Austria", "Hungary", "Ukraine", "Poland"],
+      "Split peacefully from Czechoslovakia in 1993."
+    ],
+    "Slovenia": [
+      "S",
+      "white, blue, red",
+      "Europe",
+      ["Italy", "Austria", "Hungary", "Croatia"],
+      "Part of former Yugoslavia, now an EU member."
+    ],
+    "Solomon Islands": [
+      "SI",
+      "blue, green, yellow",
+      "Oceania",
+      ["Papua New Guinea", "Vanuatu"],
+      "Group of over 900 islands in the South Pacific."
+    ],
+    "Somalia": [
+      "S",
+      "blue, white",
+      "Africa",
+      ["Djibouti", "Ethiopia", "Kenya"],
+      "Notorious for piracy and humanitarian crisis."
+    ],
+    "South Africa": [
+      "S",
+      "green, yellow, black, white, red, blue",
+      "Africa",
+      ["Namibia", "Botswana", "Zimbabwe", "Mozambique", "Lesotho", "Eswatini"],
+      "Only country with three official capitals."
+    ],
+    "South Korea": [
+      "SK",
+      "white, black, red, blue",
+      "Asia",
+      ["North Korea"],
+      "Technology powerhouse and birthplace of K-pop."
+    ],
+    "South Sudan": [
+      "SS",
+      "blue, red, green, black, yellow",
+      "Africa",
+      ["Sudan", "Ethiopia", "Kenya", "Uganda", "Democratic Republic of the Congo", "Central African Republic"],
+      "World's youngest country, independent since 2011."
+    ],
+    "Spain": [
+      "S",
+      "red, yellow",
+      "Europe",
+      ["France", "Andorra", "Portugal", "Morocco"],
+      "Famous for cultural diversity and imperial history."
+    ],
+    "Sri Lanka": [
+      "SL",
+      "red, yellow, green, orange",
+      "Asia",
+      ["India", "Maldives"],
+      "Island known as the tear of India."
+    ],
+    "Sudan": [
+      "S",
+      "red, white, black, green",
+      "Africa",
+      ["Egypt", "Libya", "Chad", "Central African Republic", "South Sudan", "Ethiopia", "Eritrea"],
+      "Split in two after decades of conflict."
+    ],
+    "Suriname": [
+      "S",
+      "green, white, red, yellow",
+      "America",
+      ["Guyana", "Brazil"],
+      "South American country with strong Dutch influence."
+    ],
+    "Sweden": [
+      "S",
+      "blue, yellow",
+      "Europe",
+      ["Norway", "Finland"],
+      "Known for high standard of living and technological advances."
+    ],
+    "Switzerland": [
+      "S",
+      "red, white",
+      "Europe",
+      ["Germany", "France", "Italy", "Austria", "Liechtenstein"],
+      "Historic political neutrality and global financial center."
+    ],
+    "Syria": [
+      "S",
+      "red, white, black, green",
+      "Asia",
+      ["Turkey", "Iraq", "Jordan", "Israel", "Lebanon"],
+      "In civil war since 2011."
+    ],
+    "Taiwan": [
+      "T",
+      "red, blue, white",
+      "Asia",
+      ["China", "Philippines", "Japan"],
+      "Highly developed and populated island with little international recognition."
+    ],
+    "Tajikistan": [
+      "T",
+      "red, white, green",
+      "Asia",
+      ["Uzbekistan", "Kyrgyzstan", "China", "Afghanistan"],
+      "Mountainous country with Soviet heritage and historic routes."
+    ],
+    "Tanzania": [
+      "T",
+      "green, black, blue, yellow",
+      "Africa",
+      ["Kenya", "Uganda", "Rwanda", "Burundi", "Democratic Republic of the Congo", "Zambia", "Malawi", "Mozambique"],
+      "Home to Kilimanjaro and Serengeti wildlife."
+    ],
+    "Thailand": [
+      "T",
+      "red, white, blue",
+      "Asia",
+      ["Myanmar", "Laos", "Cambodia", "Malaysia"],
+      "Never colonized, famous for its culture and beaches."
+    ],
+    "Timor Leste": [
+      "TL",
+      "red, black, yellow, white",
+      "Asia",
+      ["Indonesia"],
+      "One of Asia's youngest nations, independent since 2002."
+    ],
+    "Togo": [
+      "T",
+      "green, yellow, red, white",
+      "Africa",
+      ["Ghana", "Benin", "Burkina Faso"],
+      "Small African country with a coast on the Gulf of Guinea."
+    ],
+    "Tonga": [
+      "T",
+      "red, white",
+      "Oceania",
+      ["Fiji", "Samoa"],
+      "Polynesian monarchy with a strong traditional culture."
+    ],
+    "Trinidad and Tobago": [
+      "TT",
+      "red, white, black",
+      "America",
+      ["Venezuela", "Grenada"],
+      "Famous for its carnival and calypso music."
+    ],
+    "Tunisia": [
+      "T",
+      "red, white",
+      "Africa",
+      ["Algeria", "Libya"],
+      "Birthplace of the Arab Spring in 2010."
+    ],
+    "Turkey": [
+      "T",
+      "red, white",
+      "Asia/Europe",
+      ["Greece", "Bulgaria", "Georgia", "Armenia", "Azerbaijan", "Iran", "Iraq", "Syria"],
+      "Bridge between continents."
+    ],
+    "Turkmenistan": [
+      "T",
+      "green, white, red",
+      "Asia",
+      ["Kazakhstan", "Uzbekistan", "Afghanistan", "Iran"],
+      "Authoritarian government with vast gas reserves."
+    ],
+    "Tuvalu": [
+      "T",
+      "blue, yellow, red, white",
+      "Oceania",
+      ["Kiribati", "Fiji"],
+      "Second least populated country in the world."
+    ],
+    "Uganda": [
+      "U",
+      "black, yellow, red",
+      "Africa",
+      ["Kenya", "South Sudan", "Democratic Republic of the Congo", "Rwanda", "Tanzania"],
+      "Source of the Nile and rich biodiversity."
+    ],
+    "Ukraine": [
+      "U",
+      "blue, yellow",
+      "Europe",
+      ["Russia", "Belarus", "Poland", "Slovakia", "Hungary", "Romania", "Moldova"],
+      "In conflict since 2014 over the annexation of Crimea."
+    ],
+    "United Arab Emirates": [
+      "UAE",
+      "red, green, white, black",
+      "Asia",
+      ["Saudi Arabia", "Oman"],
+      "Dubai is one of its best-known emirates."
+    ],
+    "United Kingdom": [
+      "UK",
+      "red, white, blue",
+      "Europe",
+      ["Ireland"],
+      "Former global empire, now made up of four nations."
+    ],
+    "United States": [
+      "US",
+      "red, white, blue",
+      "America",
+      ["Canada", "Mexico"],
+      "World's leading economic and military power."
+    ],
+    "Uruguay": [
+      "U",
+      "light blue, white, yellow",
+      "America",
+      ["Brazil", "Argentina"],
+      "Pioneer in social rights in Latin America."
+    ],
+    "Uzbekistan": [
+      "U",
+      "blue, white, green, red",
+      "Asia",
+      ["Kazakhstan", "Kyrgyzstan", "Tajikistan", "Afghanistan", "Turkmenistan"],
+      "Has the largest irrigation system in Central Asia."
+    ],
+    "Vanuatu": [
+      "V",
+      "black, red, green, yellow",
+      "Oceania",
+      ["Solomon Islands", "Fiji"],
+      "Volcanic country with ancestral cultures."
+    ],
+    "Vatican City": [
+      "VC",
+      "white, yellow",
+      "Europe",
+      ["Italy"],
+      "Smallest country in the world and the Holy See."
+    ],
+    "Venezuela": [
+      "V",
+      "yellow, blue, red",
+      "America",
+      ["Colombia", "Brazil", "Guyana"],
+      "Holds the world's largest proven oil reserves."
+    ],
+    "Vietnam": [
+      "V",
+      "red, yellow",
+      "Asia",
+      ["China", "Laos", "Cambodia"],
+      "Known for the war and recent economic growth."
+    ],
+    "Yemen": [
+      "Y",
+      "red, white, black",
+      "Asia",
+      ["Saudi Arabia", "Oman"],
+      "One of the world's worst ongoing humanitarian crises."
+    ],
+    "Zambia": [
+      "Z",
+      "green, red, black, orange",
+      "Africa",
+      ["Angola", "Democratic Republic of the Congo", "Tanzania", "Malawi", "Mozambique", "Zimbabwe", "Namibia"],
+      "Known for Victoria Falls."
+    ],
+    "Zimbabwe": [
+      "Z",
+      "green, yellow, red, black, white",
+      "Africa",
+      ["South Africa", "Botswana", "Zambia", "Mozambique"],
+      "Known for hyperinflation and British colonial heritage."
     ]
+  },
+  "flags_emojis": {
+    "Afghanistan": "🇦🇫",
+    "Albania": "🇦🇱",
+    "Algeria": "🇩🇿",
+    "Andorra": "🇦🇩",
+    "Angola": "🇦🇴",
+    "Antigua and Barbuda": "🇦🇬",
+    "Argentina": "🇦🇷",
+    "Armenia": "🇦🇲",
+    "Australia": "🇦🇺",
+    "Austria": "🇦🇹",
+    "Azerbaijan": "🇦🇿",
+    "Bahamas": "🇧🇸",
+    "Bahrain": "🇧🇭",
+    "Bangladesh": "🇧🇩",
+    "Barbados": "🇧🇧",
+    "Belarus": "🇧🇾",
+    "Belgium": "🇧🇪",
+    "Belize": "🇧🇿",
+    "Benin": "🇧🇯",
+    "Bhutan": "🇧🇹",
+    "Bolivia": "🇧🇴",
+    "Bosnia and Herzegovina": "🇧🇦",
+    "Botswana": "🇧🇼",
+    "Brazil": "🇧🇷",
+    "Brunei": "🇧🇳",
+    "Bulgaria": "🇧🇬",
+    "Burkina Faso": "🇧🇫",
+    "Burundi": "🇧🇮",
+    "Cambodia": "🇰🇭",
+    "Cameroon": "🇨🇲",
+    "Canada": "🇨🇦",
+    "Cape Verde": "🇨🇻",
+    "Central African Republic": "🇨🇫",
+    "Chad": "🇹🇩",
+    "Chile": "🇨🇱",
+    "China": "🇨🇳",
+    "Colombia": "🇨🇴",
+    "Comoros": "🇰🇲",
+    "Costa Rica": "🇨🇷",
+    "Croatia": "🇭🇷",
+    "Cuba": "🇨🇺",
+    "Cyprus": "🇨🇾",
+    "Czech Republic": "🇨🇿",
+    "Democratic Republic of the Congo": "🇨🇩",
+    "Denmark": "🇩🇰",
+    "Djibouti": "🇩🇯",
+    "Dominica": "🇩🇲",
+    "Dominican Republic": "🇩🇴",
+    "Ecuador": "🇪🇨",
+    "Egypt": "🇪🇬",
+    "El Salvador": "🇸🇻",
+    "Equatorial Guinea": "🇬🇶",
+    "Eritrea": "🇪🇷",
+    "Estonia": "🇪🇪",
+    "Eswatini": "🇸🇿",
+    "Ethiopia": "🇪🇹",
+    "Fiji": "🇫🇯",
+    "Finland": "🇫🇮",
+    "France": "🇫🇷",
+    "Gabon": "🇬🇦",
+    "Gambia": "🇬🇲",
+    "Georgia": "🇬🇪",
+    "Germany": "🇩🇪",
+    "Ghana": "🇬🇭",
+    "Greece": "🇬🇷",
+    "Grenada": "🇬🇩",
+    "Guatemala": "🇬🇹",
+    "Guinea": "🇬🇳",
+    "Guinea-Bissau": "🇬🇼",
+    "Guyana": "🇬🇾",
+    "Haiti": "🇭🇹",
+    "Honduras": "🇭🇳",
+    "Hungary": "🇭🇺",
+    "Iceland": "🇮🇸",
+    "India": "🇮🇳",
+    "Indonesia": "🇮🇩",
+    "Iran": "🇮🇷",
+    "Iraq": "🇮🇶",
+    "Ireland": "🇮🇪",
+    "Israel": "🇮🇱",
+    "Italy": "🇮🇹",
+    "Jamaica": "🇯🇲",
+    "Japan": "🇯🇵",
+    "Jordan": "🇯🇴",
+    "Kazakhstan": "🇰🇿",
+    "Kenya": "🇰🇪",
+    "Kiribati": "🇰🇮",
+    "Kosovo": "🇽🇰",
+    "Kuwait": "🇰🇼",
+    "Kyrgyzstan": "🇰🇬",
+    "Laos": "🇱🇦",
+    "Latvia": "🇱🇻",
+    "Lebanon": "🇱🇧",
+    "Lesotho": "🇱🇸",
+    "Liberia": "🇱🇷",
+    "Libya": "🇱🇾",
+    "Liechtenstein": "🇱🇮",
+    "Lithuania": "🇱🇹",
+    "Luxembourg": "🇱🇺",
+    "Madagascar": "🇲🇬",
+    "Malawi": "🇲🇼",
+    "Malaysia": "🇲🇾",
+    "Maldives": "🇲🇻",
+    "Mali": "🇲🇱",
+    "Malta": "🇲🇹",
+    "Marshall Islands": "🇲🇭",
+    "Mauritania": "🇲🇷",
+    "Mauritius": "🇲🇺",
+    "Mexico": "🇲🇽",
+    "Micronesia": "🇫🇲",
+    "Moldova": "🇲🇩",
+    "Monaco": "🇲🇨",
+    "Mongolia": "🇲🇳",
+    "Montenegro": "🇲🇪",
+    "Morocco": "🇲🇦",
+    "Mozambique": "🇲🇿",
+    "Myanmar": "🇲🇲",
+    "Namibia": "🇳🇦",
+    "Nauru": "🇳🇷",
+    "Nepal": "🇳🇵",
+    "Netherlands": "🇳🇱",
+    "New Zealand": "🇳🇿",
+    "Nicaragua": "🇳🇮",
+    "Niger": "🇳🇪",
+    "Nigeria": "🇳🇬",
+    "North Korea": "🇰🇵",
+    "North Macedonia": "🇲🇰",
+    "Norway": "🇳🇴",
+    "Oman": "🇴🇲",
+    "Pakistan": "🇵🇰",
+    "Palau": "🇵🇼",
+    "Palestine": "🇵🇸",
+    "Panama": "🇵🇦",
+    "Papua New Guinea": "🇵🇬",
+    "Paraguay": "🇵🇾",
+    "Peru": "🇵🇪",
+    "Philippines": "🇵🇭",
+    "Poland": "🇵🇱",
+    "Portugal": "🇵🇹",
+    "Qatar": "🇶🇦",
+    "Republic of the Congo": "🇨🇬",
+    "Romania": "🇷🇴",
+    "Russia": "🇷🇺",
+    "Rwanda": "🇷🇼",
+    "Saint Kitts and Nevis": "🇰🇳",
+    "Saint Lucia": "🇱🇨",
+    "Saint Vincent and the Grenadines": "🇻🇨",
+    "Samoa": "🇼🇸",
+    "San Marino": "🇸🇲",
+    "Sao Tome and Principe": "🇸🇹",
+    "Saudi Arabia": "🇸🇦",
+    "Senegal": "🇸🇳",
+    "Serbia": "🇷🇸",
+    "Seychelles": "🇸🇨",
+    "Sierra Leone": "🇸🇱",
+    "Singapore": "🇸🇬",
+    "Slovakia": "🇸🇰",
+    "Slovenia": "🇸🇮",
+    "Solomon Islands": "🇸🇧",
+    "Somalia": "🇸🇴",
+    "South Africa": "🇿🇦",
+    "South Korea": "🇰🇷",
+    "South Sudan": "🇸🇸",
+    "Spain": "🇪🇸",
+    "Sri Lanka": "🇱🇰",
+    "Sudan": "🇸🇩",
+    "Suriname": "🇸🇷",
+    "Sweden": "🇸🇪",
+    "Switzerland": "🇨🇭",
+    "Syria": "🇸🇾",
+    "Taiwan": "🇹🇼",
+    "Tajikistan": "🇹🇯",
+    "Tanzania": "🇹🇿",
+    "Thailand": "🇹🇭",
+    "Timor-Leste": "🇹🇱",
+    "Togo": "🇹🇬",
+    "Tonga": "🇹🇴",
+    "Trinidad and Tobago": "🇹🇹",
+    "Tunisia": "🇹🇳",
+    "Turkey": "🇹🇷",
+    "Turkmenistan": "🇹🇲",
+    "Tuvalu": "🇹🇻",
+    "Uganda": "🇺🇬",
+    "Ukraine": "🇺🇦",
+    "United Arab Emirates": "🇦🇪",
+    "United Kingdom": "🇬🇧",
+    "United States": "🇺🇸",
+    "Uruguay": "🇺🇾",
+    "Uzbekistan": "🇺🇿",
+    "Vanuatu": "🇻🇺",
+    "Vatican City": "🇻🇦",
+    "Venezuela": "🇻🇪",
+    "Vietnam": "🇻🇳",
+    "Yemen": "🇾🇪",
+    "Zambia": "🇿🇲",
+    "Zimbabwe": "🇿🇼"
+  }
 }
