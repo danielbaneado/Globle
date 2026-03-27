@@ -14,13 +14,13 @@ with data_file.open(encoding="utf-8") as f:
 
 mystery_country= random.choice(list(countries.keys()))
 
-def sent(f_mystery_country, f_attempts, f_guess):
+def match(f_mystery_country, f_attempts, f_guess):
     if f_guess== f_mystery_country:
         print("You guessed!")
         exit()
     print("Attempt", f_attempts, "\nGuessed countries")
     for guesses in guessed_countries:
-        print("-", guesses)
+        print("-", guesses, flags_emojis[guesses])
     mys_cou= countries[mystery_country]
     if attempts== 4:
         print(qualities[attempts - 1], "⬇️")
@@ -28,18 +28,14 @@ def sent(f_mystery_country, f_attempts, f_guess):
             print(neighbors)
     else:
         print(qualities[attempts - 1], "➡️", mys_cou[attempts - 1])
-#    for name, characteristics in countries.items():
-#        print(name)
-#        for name, c in zip(qualities, characteristics):
-#            print(name, "-", c)
     
 while True:
     try:
-        guess= input("Enter country name\n ➡️ ").capitalize()
+        guess= input("Enter country name\n ➡️  ").capitalize()
         if guess in countries.keys():
             attempts+= 1
             guessed_countries.append(guess)
-            sent(mystery_country, attempts, guess)
+            match(mystery_country, attempts, guess)
         else:
             raise ValueError
     except ValueError:
