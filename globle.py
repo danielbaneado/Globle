@@ -51,7 +51,7 @@ while op!= 4:
     if op== 1:
         while attempts!= 5:
             try:
-                guess= input("Enter country name\n ➡️  ").capitalize()
+                guess= input("Enter country name\n ➡️  ").title()
                 if guess in countries.keys() and guess not in guessed_countries:
                     points-= 20
                     attempts+= 1
