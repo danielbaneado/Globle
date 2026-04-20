@@ -62,6 +62,7 @@ while op!= 4:
             except ValueError:
                 print("Invalid guess/Country already guessed!")
     elif op== 2:
+        random.seed()
         countries_list= list(countries.keys())
         infinite_country= random.choice(countries_list)
         while attempts!= 5:
