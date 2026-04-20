@@ -16,9 +16,9 @@ points= 120
 attempts= 0
 qualities= ("Initial(s)", "Flag colors", "Continent", "Neighbors", "Fact")
 guessed_countries= []
-infinite_country= random.choice(list(countries.keys()))
 date= dt.now().date()
-daily_country= random.seed(date.toordinal())
+random.seed(date.toordinal())
+daily_country= random.choice(list(countries.keys()))
 
 def attempt(mystery_country, attempts, guess, guessed_countries, points):
     if guess== mystery_country:
@@ -56,13 +56,26 @@ while op!= 4:
                     points-= 20
                     attempts+= 1
                     guessed_countries.append(guess)
-                    attempt(infinite_country, attempts, guess, guessed_countries, points)
+                    attempt(daily_country, attempts, guess, guessed_countries, points)
                 else:
                     raise ValueError
             except ValueError:
                 print("Invalid guess/Country already guessed!")
     elif op== 2:
-        pass
+        countries_list= list(countries.keys())
+        infinite_country= random.choice(countries_list)
+        while attempts!= 5:
+            try:
+                guess= input("Enter country name\n ➡️  ").title()
+                if guess in countries.keys() and guess not in guessed_countries:
+                    points-= 20
+                    attempts+= 1
+                    guessed_countries.append(guess)
+                    attempt(infinite_country, attempts, guess, guessed_countries, points)
+                else:
+                    raise ValueError
+            except ValueError:
+                print("Invalid guess/Country already guessed!")
     elif op== 3:
         pass
     elif op== 4:
