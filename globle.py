@@ -25,6 +25,10 @@ def attempt(mystery_country, attempts, guess, guessed_countries, points):
         points+= 20
         print(f"The mystery country is {mystery_country}!\n Score ➡️  {points}/120")
         exit()
+    
+    if guess!= daily_country and attempts== 6:
+        print("Country not guessed :(")
+        return
         
     print("Attempt", attempts, "\nGuessed countries")
     
@@ -49,7 +53,8 @@ while op!= 4:
         print("Invalid option!")
         continue
     if op== 1:
-        while attempts!= 5:
+        guess= True
+        while attempts!= 6:
             try:
                 guess= input("Enter country name\n ➡️  ").title()
                 if guess in countries.keys() and guess not in guessed_countries:
@@ -62,10 +67,11 @@ while op!= 4:
             except ValueError:
                 print("Invalid guess/Country already guessed!")
     elif op== 2:
+        guess= True
         random.seed()
         countries_list= list(countries.keys())
         infinite_country= random.choice(countries_list)
-        while attempts!= 5:
+        while attempts!= 6:
             try:
                 guess= input("Enter country name\n ➡️  ").title()
                 if guess in countries.keys() and guess not in guessed_countries:
