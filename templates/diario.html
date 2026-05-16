@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modo diario</title>
+    <link rel="stylesheet" href="../static/css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-center">
+            <a class="return-btn" href="./index.html"><h1>NewGloble 🌎</h1></a>
+        </div>
+        <nav aria-label="Menú de usuario">
+            <button class="menu-btn" aria-haspopup="true" aria-expanded="false"><a href="./index.html">Volver al inicio</a></button>
+        </nav>
+    </header>
+
+    <main>
+        <div class="guess-form">
+            <form class="input-area" action="">
+                <input id="country-input" type="text" placeholder="Escribe el nombre del país aquí.." >
+                <button class="guess-button" type="submit">Adivinar</button>
+                <button class="skip-button" type="button">Saltar</button>
+            </form>
+        </div>
+        <div class="game-container">
+            <div class="hint-area">
+                <h2 class="hint-title">Pista</h2>
+                <p id="hint-content">Aquí irá la pista.</p>
+            </div>
+            <div class="interactive-map">
+                <img src="../static/img/world_map.png" alt="Mapa interactivo">
+            </div>
+        </div>
+        
+    </main>
+    
+    <footer>
+        &copy; 2025 NewGloble | Contacto: ñoble@gmail.com
+    </footer>
+    
+    <script type="module" src="../static/js/script.js"></script>
+</body>
+</html>
