@@ -25,12 +25,12 @@
     <main>
         <section class="buttons">
             <div class="button-container">
-                <a href="./diario.html"><button type="button">Modo diario 🌎 </button></a>
+                <a href="./diario.html"><button type="button" onclick="getDailyCountry()">Modo diario 🌎 </button></a>
                 <p>Intenta adivinar el pais diario con una cantidad limitada de intento! <br> A medida que gastes
                     intentos, se iran revelando pistas que te ayuden a dar con un el pais.</p>
             </div>
             <div class="button-container">
-                <a href="./infinito.html"><button type="button">Modo infinito 🌎 </button></a>
+                <a href="./infinito.html"><button type="button" onclick="getRandomCountry()">Modo infinito 🌎 </button></a>
                 <p>Igual al modo diario.</p>
             </div>
         </section>
@@ -40,7 +40,6 @@
         &copy; 2025 NewGloble | Contacto: ñoble@gmail.com
     </footer>
     
-    <script type="module" src="../static/js/script.js"></script>
+    <script type="module" src="../static/js/script.js" defer></script>
 </body>
-
 </html>

@@ -160,6 +160,11 @@ main {
     margin-bottom: 20px;
 }
 
+.match-info {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
 #country-input {
     width: 60%;
     padding: 10px;
