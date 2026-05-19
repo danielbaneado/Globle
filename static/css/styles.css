@@ -203,6 +203,10 @@ main {
     background-color: #da190b;
 }
 
+.hide-content{
+    display: none;
+}
+
 .hint-area {
     margin-bottom: 20px;
 }
