@@ -1,6 +1,10 @@
+@font-face {
+    font-family: "ubuntu";
+    src: url("../fonts/Ubuntu_Sans_Mono/UbuntuSansMono-VariableFont_wght.ttf");
+}
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: "ubuntu";
     background-color: #111;
     color: #fff;
     display: flex;
@@ -165,6 +169,14 @@ main {
     grid-template-columns: repeat(3, 1fr);
 }
 
+.error-message {
+    color: #ff5555;
+}
+
+.victory{
+    color: #43d943;
+}
+
 #country-input {
     width: 60%;
     padding: 10px;
@@ -205,6 +217,14 @@ main {
 
 .hide-content{
     display: none;
+}
+
+.finished-match{
+    background-color: rgb(105, 105, 105);
+}
+
+.finished-match:hover{
+    background-color: rgb(105, 105, 105);
 }
 
 .hint-area {

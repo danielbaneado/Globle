@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily</title>
+    <link rel="stylesheet" href="../static/css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-center">
+            <a class="return-btn" href="./index.html"><h1>NewGloble 🌎</h1></a>
+        </div>
+        <nav aria-label="Menú de usuario">
+            <button class="menu-btn" aria-haspopup="true" aria-expanded="false"><a href="./index.html">Return to main page</a></button>
+        </nav>
+    </header>
+
+    <main>
+        <div id="form" class="guess-form">
+            <div>
+                <h2 id="messages">Guess daily country in 5 attempts or less!</h2>
+            </div>
+            <form id="country-form" class="input-area" action="">
+                <input id="country-input" type="text" placeholder="Type country name here" >
+                <button id="guess-btn" class="guess-button" type="submit">Guess</button>
+                <button id="skip-btn" class="skip-button" type="button">Skip</button>
+            </form>
+        </div>
+        <div class="game-container">
+            <div class="hint-area">
+                <h2 id="hint-number" class="hint-title">Hint</h2>
+                <p id="hint-content">Type any country to show first hint..</p>
+            </div>
+            <h2 class="hide-content" id="hidden-title">Guessed countries</h2>
+            <div class="match-info hide-content" id="match-content">
+            </div>
+            <div class="interactive-map">
+                <img src="../static/img/world_map.png" alt="World Map">
+            </div>
+        </div>
+        
+    </main>
+    
+    <footer>
+        &copy; 2025 NewGloble | Contact: ñoble@gmail.com
+    </footer>
+    
+    <script type="module" src="../static/js/new_globle.js" defer></script>
+</body>
+</html>

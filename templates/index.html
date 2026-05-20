@@ -12,12 +12,12 @@
         <div class="header-center">
             <a class="return-btn" href="./index.html"><h1>NewGloble 🌎</h1></a>
         </div>
-        <nav aria-label="Menú de usuario">
-            <button class="menu-btn" aria-haspopup="true" aria-expanded="false">Mi Cuenta ⌄</button>
+        <nav aria-label="User menu">
+            <button class="menu-btn" aria-haspopup="true" aria-expanded="false">My account ⌄</button>
             <div class="dropdown-menu" role="menu">
-                <a href="#">Perfil</a>
-                <a href="#">Configuración</a>
-                <a href="#">Cerrar sesión</a>
+                <a href="#">Profile</a>
+                <a href="#">Configuration</a>
+                <a href="#">Log out</a>
             </div>
         </nav>
     </header>
@@ -25,13 +25,12 @@
     <main>
         <section class="buttons">
             <div class="button-container">
-                <a href="./diario.html"><button type="button" onclick="getDailyCountry()">Modo diario 🌎 </button></a>
-                <p>Intenta adivinar el pais diario con una cantidad limitada de intento! <br> A medida que gastes
-                    intentos, se iran revelando pistas que te ayuden a dar con un el pais.</p>
+                <a href="./daily.html"><button type="button" onclick="getDailyCountry()">Daily mode 🌎 </button></a>
+                <p>Try to guess daily country with limited attempts! For each attempt, a hint will be showed.</p>
             </div>
             <div class="button-container">
-                <a href="./infinito.html"><button type="button" onclick="getRandomCountry()">Modo infinito 🌎 </button></a>
-                <p>Igual al modo diario.</p>
+                <a href="./random.html"><button type="button" onclick="getRandomCountry()">Infinite mode 🌎 </button></a>
+                <p>Same as daily mode.</p>
             </div>
         </section>
     </main>
@@ -40,6 +39,6 @@
         &copy; 2025 NewGloble | Contacto: ñoble@gmail.com
     </footer>
     
-    <script type="module" src="../static/js/script.js" defer></script>
+    <script type="module" src="../static/js/new_globle.js" defer></script>
 </body>
 </html>

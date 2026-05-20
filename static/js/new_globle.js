@@ -1,16 +1,17 @@
 import countries from '../json/countries_dict.json' with { type: 'json' }
 import flags from '../json/flags_dict.json' with { type: 'json' }
 const qualities= [
-    "Inicial(es)",
-    "Colores de bandera",
-    "Continente",
-    "Vecinos",
-    "Facto"
+    "Initial(s)",
+    "Flag colors",
+    "Continent",
+    "Neighbors",
+    "Fact"
 ]
 const countriesToGet = []
 for (const [name] of Object.entries(countries.countries)) {
   countriesToGet.push(name.toLocaleLowerCase())
 }
+const mode= "daily"
 
 function getDailyCountry() {
   const today= new Date()
@@ -26,83 +27,102 @@ function getRandomCountry() {
 }
 
 class Game {
-    constructor(guessBtn, skipBtn, hintTitle, hintContent, matchContent, hiddenTitle) {
+    constructor(guessBtn, skipBtn, hintTitle, hintContent, matchContent, hiddenTitle, messages) {
         this.country= this.getCountry()
         this.points= 120
         this.attempts= 0
         this.guesses= []
-        this.flag= []
         this.guessBtn= guessBtn
         this.skipBtn= skipBtn
         this.hintTitle= hintTitle
         this.hintContent= hintContent
         this.matchContent= matchContent
         this.hiddenTitle= hiddenTitle
+        this.messages= messages
     }
-    showHints(qualities) {
+    showHints(qualities, guess) {
         this.hintTitle.innerHTML= `${qualities[this.attempts - 1]}`
         this.matchContent.classList.remove("hide-content")
         this.hiddenTitle.classList.remove("hide-content")
         const mysteryCountry = countries.countries[Object.keys(countries.countries).find(c => c.toLocaleLowerCase() === this.country)]
         if(this.attempts=== 4) {
+          console.log("Condicion de attempts=== 4")
           this.hintContent.innerHTML= ""
-          for(const neighbors of mysteryCountry[3]) {
-            this.hintContent.innerHTML+= `${neighbors}, `
+          for (const [country, flag] of Object.entries(flags)) {
+            for(const neighbors of mysteryCountry[3]) {
+              if (country.toLocaleLowerCase() === neighbors.toLocaleLowerCase()) {
+                this.hintContent.innerHTML+= `${flag} ${neighbors} `
+              }
+            }
           }
         }
         else if(this.attempts >= 6) {
+          console.log("Condicion de attempts >= 6")
           this.hintContent.classList.add("hide-content")
           this.hintTitle.classList.add("hide-content")
+          this.guessBtn.classList.add("finished-match")
+          this.skipBtn.classList.add("finished-match")
         }
         else {
+          console.log("Else")
           this.hintContent.innerHTML= `${mysteryCountry[this.attempts - 1]}`
         }
-        
     }
     validateAttempt(guess, normalizedGuess) {
-        if (!countriesToGet.includes(normalizedGuess)) {
-            alert("País inválido!")
-            return
-        }
         if (normalizedGuess=== this.country) {
-            alert(`El país misterioso era: ${this.country}`)
-            alert(`Puntos obtenidos: ${this.points}`)
+            this.messages.classList.remove("error-message")
+            this.messages.classList.add("victory")
+            this.hintContent.classList.add("hide-content")
+            this.hintTitle.classList.add("hide-content")
+            this.guessBtn.classList.add("finished-match")
+            this.skipBtn.classList.add("finished-match")
+            this.messages.innerHTML= `The mystery country is ${this.country}!`
+            this.messages.innerHTML+= `<p>Points: ${this.points}</p>`
         }
         else {
             this.points-= 20
             this.attempts++
             if (!this.guesses.includes(guess)) {  
                 this.guesses.push(guess)
-                this.flag.push(flags[normalizedGuess])
             }
             if(this.attempts < 5) {
-                this.showHints(qualities)
+                this.showHints(qualities, guess)
             }
         }
     }
     attempt(guess, normalizedGuess) {
-      if (countriesToGet.includes(normalizedGuess) && !this.guesses.includes(guess)) {
+      if (guess=== "" || !countriesToGet.includes(normalizedGuess)) {
+        this.messages.classList.add("error-message")
+        this.messages.innerHTML= "Type a valid country!"
+      }
+      else if (countriesToGet.includes(normalizedGuess) && !this.guesses.includes(guess)) {
+        this.messages.innerHTML= ""
         this.validateAttempt(guess, normalizedGuess)
-        this.matchContent.innerHTML+= `<p>${guess.toLocaleUpperCase()}  </p>`
+        for (const [country, flag] of Object.entries(flags)) {
+          if (country.toLocaleLowerCase() === guess.toLocaleLowerCase()) {
+            this.matchContent.innerHTML+= `<p>${flag} ${country}</p>`
+          }
+        }
       }
     }
 }
 class DailyGame extends Game {
-    constructor(guessBtn, skipBtn, hintTitle, hintContent, matchContent, hiddenTitle) {
-        super(guessBtn, skipBtn, hintTitle, hintContent, matchContent, hiddenTitle)
+    constructor(guessBtn, skipBtn, hintTitle, hintContent, matchContent, hiddenTitle, messages) {
+        super(guessBtn, skipBtn, hintTitle, hintContent, matchContent, hiddenTitle, messages)
     }
     getCountry() {
         return getDailyCountry()
     }
 }
 class RandomGame extends Game {
-    constructor(guessBtn, skipBtn, hintTitle, hintContent, matchContent, hiddenTitle) {
-        super(guessBtn, skipBtn, hintTitle, hintContent, matchContent, hiddenTitle)
+    constructor(guessBtn, skipBtn, hintTitle, hintContent, matchContent, hiddenTitle, messages) {
+        super(guessBtn, skipBtn, hintTitle, hintContent, matchContent, hiddenTitle, messages)
     }
     getCountry() {
         return getRandomCountry()
     }
 }
+if(mode === "daily") {
 document.addEventListener("DOMContentLoaded", () => {
   const dailyGame= new DailyGame(
     document.getElementById("guess-btn"),
@@ -110,13 +130,15 @@ document.addEventListener("DOMContentLoaded", () => {
     document.getElementById("hint-number"),
     document.getElementById("hint-content"),
     document.getElementById("match-content"),
-    document.getElementById("hidden-title")
+    document.getElementById("hidden-title"),
+    document.getElementById("messages")
   );
-
+  const countryForm= document.getElementById("country-form")
   dailyGame.guessBtn.addEventListener("click", (e) => {
     e.preventDefault()
     const guess= document.getElementById("country-input").value
     const normalizedGuess= guess.toLocaleLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+    countryForm.reset()
     dailyGame.attempt(guess, normalizedGuess)
   })
 
@@ -125,3 +147,29 @@ document.addEventListener("DOMContentLoaded", () => {
     dailyGame.showHints(qualities)
   })
 })
+}
+else {
+document.addEventListener("DOMContentLoaded", () => {
+  const randomGame= new RandomGame(
+    document.getElementById("guess-btn"),
+    document.getElementById("skip-btn"),
+    document.getElementById("hint-number"),
+    document.getElementById("hint-content"),
+    document.getElementById("match-content"),
+    document.getElementById("hidden-title"),
+    document.getElementById("messages"),
+  );
+  
+  randomGame.guessBtn.addEventListener("click", (e) => {
+    e.preventDefault()
+    const guess= document.getElementById("country-input").value
+    const normalizedGuess= guess.toLocaleLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+    randomGame.attempt(guess, normalizedGuess)
+  })
+  
+  randomGame.skipBtn.addEventListener("click", () => {
+    randomGame.attempts++
+    randomGame.showHints(qualities)
+  })
+})
+}
