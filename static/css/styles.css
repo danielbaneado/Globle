@@ -179,6 +179,11 @@ main {
     color: #43d943;
 }
 
+.rematch{
+    background-color: #2a71ff;
+    color: #fff;
+}
+
 #country-input {
     width: 60%;
     padding: 10px;
@@ -190,7 +195,8 @@ main {
 }
 
 .guess-button,
-.skip-button {
+.skip-button,
+.rematch {
     padding: 10px 20px;
     font-size: 1.2em;
     border: none;
@@ -217,6 +223,10 @@ main {
     background-color: #da190b;
 }
 
+.rematch:hover{
+    background-color: #2356bd;
+}
+
 .hide-content{
     display: none;
 }
@@ -226,7 +236,7 @@ main {
 }
 
 .finished-match:hover{
-    background-color: rgb(105, 105, 105);
+    background-color: rgb(82, 82, 82);
 }
 
 .hint-area {
