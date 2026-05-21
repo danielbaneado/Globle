@@ -2,9 +2,11 @@
     font-family: "ubuntu";
     src: url("../fonts/Ubuntu_Sans_Mono/UbuntuSansMono-VariableFont_wght.ttf");
 }
+*{
+    font-family: "ubuntu";
+}
 body {
     margin: 0;
-    font-family: "ubuntu";
     background-color: #111;
     color: #fff;
     display: flex;

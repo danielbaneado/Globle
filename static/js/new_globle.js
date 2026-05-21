@@ -44,9 +44,8 @@ class Game {
         this.hintTitle.innerHTML= `${qualities[this.attempts - 1]}`
         this.matchContent.classList.remove("hide-content")
         this.hiddenTitle.classList.remove("hide-content")
-        const mysteryCountry = countries.countries[Object.keys(countries.countries).find(c => c.toLocaleLowerCase() === this.country)]
+        const mysteryCountry= countries.countries[Object.keys(countries.countries).find(c => c.toLocaleLowerCase() === this.country)]
         if(this.attempts=== 4) {
-          console.log("Condicion de attempts=== 4")
           this.hintContent.innerHTML= ""
           for (const [country, flag] of Object.entries(flags)) {
             for(const neighbors of mysteryCountry[3]) {
@@ -56,19 +55,21 @@ class Game {
             }
           }
         }
-        else if(this.attempts >= 6) {
-          console.log("Condicion de attempts >= 6")
+        else if(this.attempts === 6) {
           this.hintContent.classList.add("hide-content")
           this.hintTitle.classList.add("hide-content")
           this.guessBtn.classList.add("finished-match")
           this.skipBtn.classList.add("finished-match")
+          this.messages.classList.add("error-message")
+          this.guessBtn.disabled= true
+          this.skipBtn.disabled= true
+          this.messages.innerHTML= `Not guessed :( The mystery country is ${this.country}`
         }
         else {
-          console.log("Else")
           this.hintContent.innerHTML= `${mysteryCountry[this.attempts - 1]}`
         }
     }
-    validateAttempt(guess, normalizedGuess) {
+    validateAttempt(guess, normalizedGuess, capitalizedCountry) {
         if (normalizedGuess=== this.country) {
             this.messages.classList.remove("error-message")
             this.messages.classList.add("victory")
@@ -78,16 +79,18 @@ class Game {
             this.skipBtn.classList.add("finished-match")
             this.messages.innerHTML= `The mystery country is ${this.country}!`
             this.messages.innerHTML+= `<p>Points: ${this.points}</p>`
+            this.guessBtn.disabled= true
+            this.skipBtn.disabled= true
         }
         else {
-            this.points-= 20
-            this.attempts++
-            if (!this.guesses.includes(guess)) {  
-                this.guesses.push(guess)
-            }
-            if(this.attempts < 5) {
-                this.showHints(qualities, guess)
-            }
+          this.points-= 20
+          this.attempts++
+          if (!this.guesses.includes(guess)) {  
+            this.guesses.push(guess)
+          }
+          if (this.attempts <= 6) {
+            this.showHints(qualities, guess)
+          }
         }
     }
     attempt(guess, normalizedGuess) {
@@ -132,7 +135,7 @@ document.addEventListener("DOMContentLoaded", () => {
     document.getElementById("match-content"),
     document.getElementById("hidden-title"),
     document.getElementById("messages")
-  );
+  )
   const countryForm= document.getElementById("country-form")
   dailyGame.guessBtn.addEventListener("click", (e) => {
     e.preventDefault()
@@ -158,12 +161,13 @@ document.addEventListener("DOMContentLoaded", () => {
     document.getElementById("match-content"),
     document.getElementById("hidden-title"),
     document.getElementById("messages"),
-  );
-  
+  )
+  const countryForm= document.getElementById("country-form")
   randomGame.guessBtn.addEventListener("click", (e) => {
     e.preventDefault()
     const guess= document.getElementById("country-input").value
     const normalizedGuess= guess.toLocaleLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+    countryForm.reset()
     randomGame.attempt(guess, normalizedGuess)
   })
   
