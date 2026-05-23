@@ -271,10 +271,9 @@ footer {
     .menu-btn{
         display: none;
     }
-    .header-center h1{
-        left: 0;
-        transform: none;
-        padding-top: 3rem;
-        border-bottom: none;
+    .header-center {
+        position: relative;
+        left: 50%;
+        text-align: center;
     }
 }
