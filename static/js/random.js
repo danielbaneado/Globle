@@ -40,6 +40,7 @@ function match(){
         })
         
         randomGame.skipBtn.addEventListener("click", () => {
+            randomGame.points-= 20
             randomGame.attempts++
             randomGame.showHints(qualities)
         })

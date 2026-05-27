@@ -7,27 +7,29 @@ export const qualities= [
     "Neighbors",
     "Fact"
 ]
-const countriesToGet = []
+const loweredCountries= []
+const capitalizedCountries= []
 for (const [name] of Object.entries(countries.countries)) {
-  countriesToGet.push(name.toLocaleLowerCase())
+  loweredCountries.push(name.toLocaleLowerCase())
+  capitalizedCountries.push(name)
 }
 
 export function getDailyCountry() {
   const today= new Date()
   const days= Math.floor(today.getTime() / (1000 * 60 * 60 * 24))
-  const index= days % countriesToGet.length
-  const dailyCountry= countriesToGet[index]
+  const index= days % capitalizedCountries.length
+  const dailyCountry= capitalizedCountries[index]
   return dailyCountry
 }
 export function getRandomCountry() {
-  const index= Math.floor(Math.random() * countriesToGet.length)
-  const randomCountry= countriesToGet[index]
+  const index= Math.floor(Math.random() * capitalizedCountries.length)
+  const randomCountry= capitalizedCountries[index]
   return randomCountry
 }
 
 export class Game {
     constructor(guessBtn, skipBtn, hintTitle, hintContent, matchContent, hiddenTitle, messages) {
-        this.country= this.getCountry()
+        this.country= String(this.getCountry())
         this.points= 120
         this.attempts= 0
         this.guesses= []
@@ -43,7 +45,7 @@ export class Game {
         this.hintTitle.innerHTML= `${qualities[this.attempts - 1]}`
         this.matchContent.classList.remove("hide-content")
         this.hiddenTitle.classList.remove("hide-content")
-        const mysteryCountry= countries.countries[Object.keys(countries.countries).find(c => c.toLocaleLowerCase() === this.country)]
+        const mysteryCountry= countries.countries[Object.keys(countries.countries).find(c => c.toLocaleLowerCase() === this.country.toLocaleLowerCase())]
         if(this.attempts=== 4) {
           this.hintContent.innerHTML= ""
           for (const [country, flag] of Object.entries(flags)) {
@@ -68,8 +70,8 @@ export class Game {
           this.hintContent.innerHTML= `${mysteryCountry[this.attempts - 1]}`
         }
     }
-    validateAttempt(guess, normalizedGuess, capitalizedCountry) {
-        if (normalizedGuess=== this.country) {
+    validateAttempt(guess, normalizedGuess) {
+        if (normalizedGuess=== this.country.toLocaleLowerCase()) {
             this.messages.classList.remove("error-message")
             this.messages.classList.add("victory")
             this.hintContent.classList.add("hide-content")
@@ -93,11 +95,11 @@ export class Game {
         }
     }
     attempt(guess, normalizedGuess) {
-      if (guess=== "" || !countriesToGet.includes(normalizedGuess)) {
+      if (guess=== "" || !loweredCountries.includes(normalizedGuess)) {
         this.messages.classList.add("error-message")
         this.messages.innerHTML= "Type a valid country!"
       }
-      else if (countriesToGet.includes(normalizedGuess) && !this.guesses.includes(guess)) {
+      else if (loweredCountries.includes(normalizedGuess) && !this.guesses.includes(guess)) {
         this.messages.innerHTML= ""
         this.validateAttempt(guess, normalizedGuess)
         for (const [country, flag] of Object.entries(flags)) {

@@ -35,6 +35,7 @@ document.addEventListener("DOMContentLoaded", () => {
   })
 
   dailyGame.skipBtn.addEventListener("click", () => {
+    dailyGame.points-= 20
     dailyGame.attempts++
     dailyGame.showHints(qualities)
   })
