@@ -6,7 +6,6 @@ const countriesToGet = []
 for (const [name] of Object.entries(countries.countries)) {
   countriesToGet.push(name.toLocaleLowerCase())
 }
-
 class RandomGame extends Game {
     constructor(guessBtn, skipBtn, hintTitle, hintContent, matchContent, hiddenTitle, messages) {
         super(guessBtn, skipBtn, hintTitle, hintContent, matchContent, hiddenTitle, messages)

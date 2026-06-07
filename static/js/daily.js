@@ -11,7 +11,7 @@ class DailyGame extends Game {
         super(guessBtn, skipBtn, hintTitle, hintContent, matchContent, hiddenTitle, messages)
     }
     getCountry() {
-        return getDailyCountry()
+      return getDailyCountry()
     }
 }
 
@@ -25,11 +25,13 @@ document.addEventListener("DOMContentLoaded", () => {
     document.getElementById("hidden-title"),
     document.getElementById("messages")
   )
+  dailyGame.getMatch()
+  dailyGame.renderGuesses()
   const countryForm= document.getElementById("country-form")
   dailyGame.guessBtn.addEventListener("click", (e) => {
     e.preventDefault()
-    const guess= document.getElementById("country-input").value
-    const normalizedGuess= guess.toLocaleLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+    const guess= document.getElementById("country-input").value.toLocaleLowerCase()
+    const normalizedGuess= guess.normalize("NFD").replace(/[\u0300-\u036f]/g, "")
     countryForm.reset()
     dailyGame.attempt(guess, normalizedGuess)
   })
@@ -37,6 +39,7 @@ document.addEventListener("DOMContentLoaded", () => {
   dailyGame.skipBtn.addEventListener("click", () => {
     dailyGame.points-= 20
     dailyGame.attempts++
+    dailyGame.skips++
     dailyGame.showHints(qualities)
   })
 })
