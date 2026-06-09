@@ -48,6 +48,7 @@ function match(){
 }
 const newGame= document.getElementById("new-game")
 newGame.addEventListener("click", () => {
+    localStorage.removeItem("match")
     location.reload()
     match()
 })
