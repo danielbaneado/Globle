@@ -36,10 +36,17 @@ document.addEventListener("DOMContentLoaded", () => {
     dailyGame.attempt(guess, normalizedGuess)
   })
 
-  dailyGame.skipBtn.addEventListener("click", () => {
+  dailyGame.skipBtn.addEventListener("click", (e) => {
+    e.preventDefault()
     dailyGame.points-= 20
     dailyGame.attempts++
-    dailyGame.skips++
+    let match= {
+      guesses: dailyGame.guesses,
+      date: new Date().toLocaleString().slice(0, 8),
+      attempts: dailyGame.attempts,
+      points: dailyGame.points
+    }
     dailyGame.showHints(qualities)
+    dailyGame.saveMatch(match)
   })
 })

@@ -62,7 +62,9 @@ export class Game {
         }
         this.match= {
           guesses: this.guesses,
-          date: new Date().toLocaleString().slice(0, 8)
+          date: new Date().toLocaleString().slice(0, 8),
+          attempts: this.attempts,
+          points: this.points
         }
         this.saveMatch(this.match)
     }
@@ -108,10 +110,7 @@ export class Game {
       }
     }
     renderGuesses(){
-      // if(!this.match.date!= new Date().toLocaleString().slice(0, 8)){
-      //   return
-      // }
-      if(this.guesses.length!= 0){
+      if(this.guesses.length!= 0 || this.points <= 100){
         this.messages.textContent= ""
         this.validateHints()
         this.hiddenTitle.classList.remove("hide-content")
@@ -139,7 +138,8 @@ export class Game {
     getMatch(){
       let match= JSON.parse(localStorage.getItem("match")) || {}
       this.guesses= match.guesses || []
-      this.attempts= this.guesses.length
+      this.attempts= match.attempts || 0
+      this.points= match.points || 120
     }
     saveMatch(match){
       localStorage.setItem("match", JSON.stringify(match)) 

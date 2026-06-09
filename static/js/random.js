@@ -38,7 +38,8 @@ function match(){
             randomGame.attempt(guess, normalizedGuess)
         })
         
-        randomGame.skipBtn.addEventListener("click", () => {
+        randomGame.skipBtn.addEventListener("click", (e) => {
+            e.preventDefault()
             randomGame.points-= 20
             randomGame.attempts++
             randomGame.showHints(qualities)
