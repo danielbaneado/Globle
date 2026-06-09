@@ -136,13 +136,13 @@ export class Game {
       
     }
     getMatch(){
-      let match= JSON.parse(localStorage.getItem("match")) || {}
+      let match= JSON.parse(localStorage.getItem(this.storageKey)) || {}
       this.guesses= match.guesses || []
       this.attempts= match.attempts || 0
       this.points= match.points || 120
     }
     saveMatch(match){
-      localStorage.setItem("match", JSON.stringify(match)) 
+      localStorage.setItem(this.storageKey, JSON.stringify(match)) 
     }
     winnedMatch(){
       this.messages.classList.remove("error-message")

@@ -7,8 +7,9 @@ for (const [name] of Object.entries(countries.countries)) {
   countriesToGet.push(name.toLocaleLowerCase())
 }
 class DailyGame extends Game {
-    constructor(guessBtn, skipBtn, hintTitle, hintContent, matchContent, hiddenTitle, messages) {
+    constructor(guessBtn, skipBtn, hintTitle, hintContent, matchContent, hiddenTitle, messages, storageKey) {
         super(guessBtn, skipBtn, hintTitle, hintContent, matchContent, hiddenTitle, messages)
+        this.storageKey= "dailyMode"
     }
     getCountry() {
       return getDailyCountry()

@@ -7,8 +7,9 @@ for (const [name] of Object.entries(countries.countries)) {
   countriesToGet.push(name.toLocaleLowerCase())
 }
 class RandomGame extends Game {
-    constructor(guessBtn, skipBtn, hintTitle, hintContent, matchContent, hiddenTitle, messages) {
+    constructor(guessBtn, skipBtn, hintTitle, hintContent, matchContent, hiddenTitle, messages, storageKey) {
         super(guessBtn, skipBtn, hintTitle, hintContent, matchContent, hiddenTitle, messages)
+        this.storageKey= "practiceMode"
     }
     getCountry() {
         return getRandomCountry()
@@ -33,7 +34,7 @@ function match(){
         randomGame.guessBtn.addEventListener("click", (e) => {
             e.preventDefault()
             const guess= document.getElementById("country-input").value
-            const normalizedGuess= guess.toLocaleLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+            const normalizedGuess= guess.normalize("NFD").replace(/[\u0300-\u036f]/g, "")
             countryForm.reset()
             randomGame.attempt(guess, normalizedGuess)
         })
@@ -44,12 +45,12 @@ function match(){
             randomGame.attempts++
             randomGame.showHints(qualities)
         })
+        const newGame= document.getElementById("new-game")
+        newGame.addEventListener("click", () => {
+            localStorage.removeItem(randomGame.storageKey)
+            location.reload()
+            match()
+        })
     })
 }
-const newGame= document.getElementById("new-game")
-newGame.addEventListener("click", () => {
-    localStorage.removeItem("match")
-    location.reload()
-    match()
-})
 match()
