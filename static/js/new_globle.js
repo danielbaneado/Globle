@@ -110,9 +110,8 @@ export class Game {
       }
     }
     renderGuesses(){
-      if(this.guesses.length!= 0 || this.points <= 100){
+      if(this.guesses.length!= 0 || this.attempts > 0){
         this.messages.textContent= ""
-        this.validateHints()
         this.hiddenTitle.classList.remove("hide-content")
         this.hintTitle.classList.remove("hide-content")
         this.matchContent.classList.remove("hide-content")
@@ -133,7 +132,6 @@ export class Game {
           this.validateHints()
         }
       }
-      
     }
     getMatch(){
       let match= JSON.parse(localStorage.getItem(this.storageKey)) || {}
