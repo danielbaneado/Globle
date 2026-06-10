@@ -33,7 +33,7 @@ function match(){
         const countryForm= document.getElementById("country-form")
         randomGame.guessBtn.addEventListener("click", (e) => {
             e.preventDefault()
-            const guess= document.getElementById("country-input").value
+            const guess= document.getElementById("country-input").value.toLocaleLowerCase()
             const normalizedGuess= guess.normalize("NFD").replace(/[\u0300-\u036f]/g, "")
             countryForm.reset()
             randomGame.attempt(guess, normalizedGuess)
