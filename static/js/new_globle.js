@@ -135,12 +135,28 @@ export class Game {
     }
     getMatch(){
       let match= JSON.parse(localStorage.getItem(this.storageKey)) || {}
+      if(match.date && match.date!== new Date().toLocaleString().slice(0, 9)){
+        localStorage.clear(this.storageKey)
+        return
+      }
       this.guesses= match.guesses || []
       this.attempts= match.attempts || 0
       this.points= match.points || 120
+      this.scheduleMidnightReset()
     }
     saveMatch(match){
       localStorage.setItem(this.storageKey, JSON.stringify(match)) 
+    }
+    scheduleMidnightReset(){
+      const now= new Date()
+      const midnight= new Date()
+      midnight.setHours(24, 0, 0, 0)
+      const msToMidnight= midnight - now
+
+      setTimeout(() => {
+        localStorage.removeItem(this.storageKey)
+        location.reload()
+      }, msToMidnight)
     }
     winnedMatch(){
       this.messages.classList.remove("error-message")
