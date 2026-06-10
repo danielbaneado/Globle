@@ -43,7 +43,7 @@ document.addEventListener("DOMContentLoaded", () => {
     dailyGame.attempts++
     let match= {
       guesses: dailyGame.guesses,
-      date: new Date().toLocaleString().slice(0, 8),
+      date: new Date().toLocaleString().slice(0, 9),
       attempts: dailyGame.attempts,
       points: dailyGame.points
     }

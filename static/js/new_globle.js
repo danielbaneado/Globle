@@ -62,7 +62,7 @@ export class Game {
         }
         this.match= {
           guesses: this.guesses,
-          date: new Date().toLocaleString().slice(0, 8),
+          date: new Date().toLocaleString().slice(0, 9),
           attempts: this.attempts,
           points: this.points
         }
