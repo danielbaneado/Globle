@@ -15,12 +15,12 @@ for (const [name] of Object.entries(countries.countries)) {
 }
 
 export function getDailyCountry() {
-  const today= new Date()
-  const days= Math.floor(today.getTime() / (1000 * 60 * 60 * 24))
-  const index= days % capitalizedCountries.length
-  const dailyCountry= capitalizedCountries[index]
-  return dailyCountry
+  const EPOCH= new Date("2026-06-12").getTime()
+  const now= new Date().getTime()
+  const days= Math.floor((now - EPOCH) / (1000 * 60 * 60 * 24))
+  return capitalizedCountries[days % capitalizedCountries.length]
 }
+
 export function getRandomCountry() {
   const index= Math.floor(Math.random() * capitalizedCountries.length)
   const randomCountry= capitalizedCountries[index]
