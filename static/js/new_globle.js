@@ -14,11 +14,34 @@ for (const [name] of Object.entries(countries.countries)) {
   capitalizedCountries.push(name)
 }
 
+export function mulberry32(seed) {
+  return function () {
+    seed|= 0
+    seed= (seed + 0x6D2B79F5) | 0
+    let t= Math.imul(seed ^ (seed >>> 15), 1 | seed)
+    t= (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t
+    return ((t ^ (t >>> 14)) >>> 0) / 4294967296
+  }
+}
+
+export function seededShuffle(array, seed) {
+  const result= [...array]
+  const rand= mulberry32(seed)
+  for (let i = result.length - 1; i > 0; i--) {
+    const j = Math.floor(rand() * (i + 1))
+    ;[result[i], result[j]] = [result[j], result[i]]
+  }
+  return result
+}
+
+export const SHUFFLE_SEED= 20260615
+export const shuffledCountries = seededShuffle(capitalizedCountries, SHUFFLE_SEED)
+
 export function getDailyCountry() {
-  const EPOCH= new Date("2026-06-12").getTime()
-  const now= new Date().getTime()
-  const days= Math.floor((now - EPOCH) / (1000 * 60 * 60 * 24))
-  return capitalizedCountries[days % capitalizedCountries.length]
+  const EPOCH = new Date("2026-06-15").getTime()
+  const now = new Date().getTime()
+  const days = Math.floor((now - EPOCH) / (1000 * 60 * 60 * 24))
+  return shuffledCountries[days % shuffledCountries.length]
 }
 
 export function getRandomCountry() {
