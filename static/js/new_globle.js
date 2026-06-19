@@ -68,19 +68,19 @@ export class Game {
     showHints(qualities, guess) {
         this.validateHints()
     }
-    validateAttempt(guess, normalizedGuess) {
+    validateAttempt(normalizedGuess) {
         if (normalizedGuess=== this.country.toLocaleLowerCase()) {
           this.winnedMatch()
-          this.guesses.push(guess)
+          this.guesses.push(normalizedGuess)
         }
         else {
           this.points-= 20
           this.attempts++
-          if (!this.guesses.includes(guess)) {  
-            this.guesses.push(guess)
+          if (!this.guesses.includes(normalizedGuess)) {  
+            this.guesses.push(normalizedGuess)
           }
           if (this.attempts <= 6) {
-            this.showHints(qualities, guess)
+            this.showHints(qualities, normalizedGuess)
           }
         }
         this.match= {
@@ -96,16 +96,16 @@ export class Game {
         this.messages.classList.add("error-message")
         this.messages.innerHTML= "Type a valid country!"
       }
-      else if (loweredCountries.includes(normalizedGuess) && !this.guesses.includes(guess)) {
+      else if (loweredCountries.includes(normalizedGuess) && !this.guesses.includes(normalizedGuess)) {
         this.messages.innerHTML= ""
-        this.validateAttempt(guess, normalizedGuess)
+        this.validateAttempt(normalizedGuess)
         for (const [country, flag] of Object.entries(flags)) {
-          if (country.toLocaleLowerCase() === guess) {
+          if (country.toLocaleLowerCase() === normalizedGuess) {
             this.matchContent.innerHTML+= `<p>${flag} ${country}</p>`
           }
         }
       }
-      else if(loweredCountries.includes(normalizedGuess) && this.guesses.includes(guess)) {
+      else if(loweredCountries.includes(normalizedGuess) && this.guesses.includes(normalizedGuess)) {
         this.messages.classList.remove("error-message")
         this.messages.textContent= "Country already guessed!"
       }

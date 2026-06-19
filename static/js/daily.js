@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", () => {
   dailyGame.guessBtn.addEventListener("click", (e) => {
     e.preventDefault()
     const guess= document.getElementById("country-input").value.toLocaleLowerCase()
-    const normalizedGuess= guess.normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+    const normalizedGuess= guess.normalize("NFD").replace(/[^a-zA-ZáéíóúÁÉÍÓÚñÑ ]/g, "").replace(/\s+/g, " ").trim()
     countryForm.reset()
     dailyGame.attempt(guess, normalizedGuess)
   })
