@@ -51,7 +51,7 @@ export function getRandomCountry() {
 }
 
 export class Game {
-    constructor(guessBtn, skipBtn, hintTitle, hintContent, matchContent, hiddenTitle, messages, guesses, match) {
+    constructor(guessBtn, skipBtn, hintTitle, hintContent, matchContent, hiddenTitle, messages, guesses, match, solvedHints){
         this.country= String(this.getCountry())
         this.points= 120
         this.attempts= 0
@@ -63,6 +63,7 @@ export class Game {
         this.matchContent= matchContent
         this.hiddenTitle= hiddenTitle
         this.messages= messages
+        this.solvedHints= solvedHints
         this.match= {}
     }
     showHints(qualities, guess) {
@@ -109,6 +110,10 @@ export class Game {
         this.messages.classList.remove("error-message")
         this.messages.textContent= "Country already guessed!"
       }
+      console.log(guess[0], this.country[0].toLocaleLowerCase())
+      if (guess[0]== this.country[0].toLocaleLowerCase()){
+        this.solvedHints.textContent= `Solved hints: Initial -> ${this.country[0]} ✅`
+      }
     }
     validateHints(){
       this.hintTitle.innerHTML= `${qualities[this.attempts - 1]}`
@@ -131,6 +136,7 @@ export class Game {
       else {
         this.hintContent.innerHTML= `${mysteryCountry[this.attempts - 1]}`
       }
+      
     }
     renderGuesses(){
       if(this.guesses.length!= 0 || this.attempts > 0){
@@ -153,6 +159,11 @@ export class Game {
         }
         else{
           this.validateHints()
+        }
+        const lastGuess= this.guesses.at(-1)
+        console.log(lastGuess, this.country[0].toLocaleLowerCase())
+        if (lastGuess[0]== this.country[0].toLocaleLowerCase()){
+          this.solvedHints.textContent= `Solved hints: Initial -> ${this.country[0]} ✅`
         }
       }
     }

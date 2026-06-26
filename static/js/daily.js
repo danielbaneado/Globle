@@ -7,9 +7,9 @@ for (const [name] of Object.entries(countries.countries)) {
   countriesToGet.push(name.toLocaleLowerCase())
 }
 class DailyGame extends Game {
-    constructor(guessBtn, skipBtn, hintTitle, hintContent, matchContent, hiddenTitle, messages, storageKey) {
-        super(guessBtn, skipBtn, hintTitle, hintContent, matchContent, hiddenTitle, messages)
-        this.storageKey= "dailyMode"
+    constructor(guessBtn, skipBtn, hintTitle, hintContent, matchContent, hiddenTitle, messages, solvedHints) {
+      super(guessBtn, skipBtn, hintTitle, hintContent, matchContent, hiddenTitle, messages, undefined, undefined, solvedHints)
+      this.storageKey = "dailyMode"
     }
     getCountry() {
       return getDailyCountry()
@@ -24,7 +24,8 @@ document.addEventListener("DOMContentLoaded", () => {
     document.getElementById("hint-content"),
     document.getElementById("match-content"),
     document.getElementById("hidden-title"),
-    document.getElementById("messages")
+    document.getElementById("messages"),
+    document.getElementById("solved-hints")
   )
   dailyGame.getMatch()
   dailyGame.renderGuesses()
